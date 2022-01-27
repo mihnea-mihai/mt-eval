@@ -1,0 +1,2332 @@
+{
+    "medical": {
+        "SRC_lang": "en",
+        "REF_lang": "ro",
+        "sents": [
+            {
+                "SRC": "In case of skin or eye contact the affected area should be rinsed immediately with water.",
+                "REF": "În caz de contact cu pielea sau cu ochii, zona afectată trebuie clătită imediat cu apă.",
+                "OPUS": {
+                    "output text": "În caz de contact cu pielea sau ochii, zona afectată trebuie clătită imediat cu apă.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 84.28014430784187,
+                    "chrf": 95.21708899293064,
+                    "ter": 6.25
+                },
+                "MBart50": {
+                    "output text": "În cazul contactului cu piele sau cu ochii, zona afectată trebuie spălată imediat cu apă.",
+                    "bleu": 48.7887501414534,
+                    "chrf": 74.13133683458256,
+                    "ter": 31.25,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "The most common side effects with Improvac (which may affect more than 1 in 10 pigs) are injection site swelling, which gradually resolves but in 20 to 30% of animals will last for more than 6 weeks, and a short-lived increase in body temperature of around 0.5 ˚C within 24 hours of vaccination.",
+                "REF": "Cele mai frecvente efecte secundare asociate cu Improvac (care pot afecta mai mult de 1 porc din 10) sunt inflamare la locul injecției, care se resoarbe treptat, dar la 20-30 % din animale va persista mai mult de 6 săptămâni, și creștere de scurtă durată a temperaturii corpului, cu aproximativ 0,5 ˚C în primele 24 de ore de la vaccinare.",
+                "OPUS": {
+                    "output text": "Cele mai frecvente efecte secundare asociate cu Improvac (care pot afecta mai mult de 1 din 10 porci) sunt umflarea locului de injectare, care se remit treptat, dar la 20-30% dintre animale va dura mai mult de 6 săptămâni, şi o creştere de scurtă durată a temperaturii corpului de aproximativ 0, 5 °C în decurs de 24 de ore de la vaccinare.",
+                    "bleu": 54.951876760928855,
+                    "chrf": 75.48318925471592,
+                    "ter": 36.666666666666664,
+                    "DA_adequacy": 80.0
+                },
+                "MBart50": {
+                    "output text": "Cele mai comune efecte secundare cu Improvac (care pot afecta mai mult de 1 din 10 porci) sunt inflamarea la locul de injecţie, care se soluţionează treptat, dar în 20 până la 30% din animale vor dura mai mult de 6 săptămâni, şi o creştere de scurtă durată a temperaturii corporale de aproximativ 0,5 ̊C în 24 de ore de la vaccinare.",
+                    "bleu": 44.313928615851076,
+                    "chrf": 68.18180933884484,
+                    "ter": 38.333333333333336,
+                    "DA_adequacy": 70.0
+                }
+            },
+            {
+                "SRC": "When an administration of radiopharmaceuticals to a woman of childbearing potential is intended, it is important to determine whether or not she is pregnant.",
+                "REF": "Atunci când se intenţionează administrarea de medicamente radiofarmaceutice unei femei aflate la vârsta fertilă, este important de stabilit dacă aceasta este gravidă sau nu.",
+                "OPUS": {
+                    "output text": "Când se intenţionează administrarea de medicamente radiofarmaceutice unei femei aflate în perioada fertilă, este important să se determine dacă este gravidă sau nu.",
+                    "bleu": 54.21505875750399,
+                    "chrf": 76.12882449882751,
+                    "ter": 29.166666666666668,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Atunci când este destinată administrarea de radiofarmaceutice unei femei cu potenţial de naştere, este important să se stabilească dacă este sau nu gravidă.",
+                    "bleu": 13.713408565480927,
+                    "chrf": 57.08118668131053,
+                    "ter": 58.333333333333336,
+                    "DA_adequacy": 80.0
+                }
+            },
+            {
+                "SRC": "If you develop a fever that does not go away, or you bruise or bleed very easily or look very pale, call your doctor right away.",
+                "REF": "Dacă apar febră persistentă, vânătăi sau sângerați foarte ușor sau sunteți foarte palid, anunțați medicul imediat.",
+                "OPUS": {
+                    "output text": "Dacă aveţi febră care nu dispare sau vă învineţiţi sau sângeraţi foarte uşor sau păreţi foarte palid, chemaţi imediat medicul dumneavoastră.",
+                    "bleu": 8.481999049965715,
+                    "chrf": 46.0001989831621,
+                    "ter": 81.25,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Dacă deţineţi febră care nu dispare, dacă vă faceţi bruje sau vă sanguinaţi foarte uşor sau dacă vă vedeţi foarte pale, vă rog să vă adresaţi imediat doctorului.",
+                    "bleu": 2.1327760837192438,
+                    "chrf": 32.971844254534346,
+                    "ter": 137.5,
+                    "DA_adequacy": 60.0
+                }
+            },
+            {
+                "SRC": "You should inject Zutectra into the fatty layer between the skin and muscle (about 8 to 12 mm under the skin).",
+                "REF": "Trebuie să vă injectaţi Zutectra în stratul adipos dintre piele şi muşchi (la aproximativ 8 - 12 mm sub piele).",
+                "OPUS": {
+                    "output text": "Trebuie să injectaţi Zutectra în stratul gras dintre piele şi muşchi (aproximativ 8 până la 12 mm sub piele).",
+                    "bleu": 51.765557605142625,
+                    "chrf": 79.70304158291633,
+                    "ter": 30.0,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Ar trebui să injectaţi Zutectra în stratul gras dintre piele şi ţel (aproximativ 8 până la 12 mm sub piele).",
+                    "bleu": 40.188875403207,
+                    "chrf": 68.59673301447849,
+                    "ter": 45.0,
+                    "DA_adequacy": 50.0
+                }
+            },
+            {
+                "SRC": "After injection of immunoglobulin the transitory rise of the various passively transferred antibodies in the patient's blood may result in misleading positive results in serological testing.",
+                "REF": "După injectarea de imunoglobuline, creşterea tranzitorie a titrurilor plasmatice ale diferiţilor anticorpi transferaţi în mod pasiv în sângele pacientului poate determina rezultate fals pozitive la testarea serologică.",
+                "OPUS": {
+                    "output text": "După injectarea imunoglobulinei, creşterea tranzitorie a diferitelor anticorpi transferaţi pasiv în sângele pacientului poate duce la rezultate pozitive înşelătoare în testele serologice.",
+                    "bleu": 25.36753615448684,
+                    "chrf": 66.26243462514078,
+                    "ter": 51.85185185185185,
+                    "DA_adequacy": 85.0
+                },
+                "MBart50": {
+                    "output text": "După injecţie de imunoglobulin, creşterea tranzitorie a diferitelor anticorpii transferaţi pasiv în sângele pacientului poate duce la rezultate pozitive înşelătoare în testele serologice.",
+                    "bleu": 23.59646773103178,
+                    "chrf": 63.696650593747705,
+                    "ter": 55.55555555555556,
+                    "DA_adequacy": 80.0
+                }
+            },
+            {
+                "SRC": "Subjects with severe renal failure (CLcr less than 30 ml/min) receiving daily oral administration of 10 mg ibandronic acid for 21 days, had 2-3 fold higher plasma concentrations than subjects with normal renal function and total clearance of ibandronic acid was 44 ml/min.",
+                "REF": "Pacientele cu insuficienţă renală severă (CLcr mai mic de 30 ml/min) care au primit zilnic o doză orală de 10mg acid ibandronic timp de 21 zile au prezentat concentraţii plasmatice de 2-3 ori mai mari decât pacientele cu funcţie renală normală, iar clearance-ul total al acidului ibandronic a fost de 44 ml/min.",
+                "OPUS": {
+                    "output text": "Subiecţii cu insuficienţă renală severă (Clcr mai mic de 30 ml/min) cărora li s-a administrat zilnic acid ibandronic 10 mg timp de 21 zile au prezentat concentraţii plasmatice de 2-3 ori mai mari decât subiecţii cu funcţie renală normală şi clearance-ul total al acidului ibandronic a fost de 44 ml/min.",
+                    "bleu": 64.35894243327172,
+                    "chrf": 77.72266830992784,
+                    "ter": 26.923076923076923,
+                    "DA_adequacy": 95.0
+                },
+                "MBart50": {
+                    "output text": "Subiecții cu deficiență renală gravă (CLcr mai mică de 30 ml/min) care au primit administrarea zilnică orală de 10 mg de acid ibandronic timp de 21 de zile, au avut concentrații plasmatice 2-3 ori mai mari decât subiecții cu funcționare renală normală și clearanța totală a acidului ibandronic a fost de 44 ml/min.",
+                    "bleu": 46.18147086685518,
+                    "chrf": 64.91750621319684,
+                    "ter": 40.38461538461539,
+                    "DA_adequacy": 80.0
+                }
+            },
+            {
+                "SRC": "The AT1-receptor was also blocked as evidenced by increased plasma renin activity and plasma renin concentrations.",
+                "REF": "De asemenea, receptorul AT1 a fost blocat, aşa cum a fost demonstrat de o activitate plasmatică crescută a reninei şi de concentraţii plasmatice crescute de renină.",
+                "OPUS": {
+                    "output text": "Receptorul AT1 a fost, de asemenea, blocat, după cum s-a evidenţiat prin creşterea activităţii reninei plasmatice şi a concentraţiilor plasmatice de renină.",
+                    "bleu": 11.395773216649483,
+                    "chrf": 55.29310267719336,
+                    "ter": 61.53846153846154,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Receptorul AT1 a fost de asemenea blocat, după cum s-a dovedit prin sporirea activităţii reninului din plasma şi a concentraţiilor de renin din plasma.",
+                    "bleu": 7.498840493966204,
+                    "chrf": 46.315139566589416,
+                    "ter": 76.92307692307693,
+                    "DA_adequacy": 90.0
+                }
+            },
+            {
+                "SRC": "Other common side effects (which may affect more than 1 patient in 100) are sinusitis (inflammation of the sinuses), cough, nausea (feeling sick) and diarrhoea.",
+                "REF": "Alte reacții adverse frecvente (care pot afecta mai mult de 1 persoană din 100) sunt sinuzită (inflamarea sinusurilor), tuse, greață și diaree.",
+                "OPUS": {
+                    "output text": "Alte reacţii adverse frecvente (care pot afecta mai mult de 1 pacient din 100) sunt sinuzita (inflamarea sinusurilor), tusea, greaţa (senzaţia de rău) şi diareea.",
+                    "bleu": 45.02931824403319,
+                    "chrf": 77.57425880887054,
+                    "ter": 45.45454545454545,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Alte efecte secundare comune (care pot afecta peste 1 pacient din 100) sunt sinusitis (inflammationa sinuselor), coş, nausea (feeling bolnav) şi diarea.",
+                    "bleu": 18.26249361348376,
+                    "chrf": 43.80221657440605,
+                    "ter": 72.72727272727273,
+                    "DA_adequacy": 50.0
+                }
+            },
+            {
+                "SRC": "In pulmonary arterial hypertension patients, there may be a potential for increased risk of bleeding when sildenafil is initiated in patients already using a Vitamin K antagonist, particularly in patients with pulmonary arterial hypertension secondary to connective tissue disease.",
+                "REF": "La pacienţii cu hipertensiune arterială pulmonară, poate exista un risc crescut de sângerare atunci când este început tratamentul cu sildenafil la pacienţii care utilizează deja antagonişti ai vitaminei K, mai ales la pacienţii cu hipertensiune arterială pulmonară secundară bolii de ţesut conjunctiv.",
+                "OPUS": {
+                    "output text": "La pacienţii cu hipertensiune arterială pulmonară, poate exista un potenţial de creştere a riscului de sângerare atunci când sildenafilul este iniţiat la pacienţii care utilizează deja un antagonist al vitaminei K, în special la pacienţii cu hipertensiune arterială pulmonară secundară bolii ţesutului conjunctiv.",
+                    "bleu": 51.01178382073777,
+                    "chrf": 77.77567185091834,
+                    "ter": 38.095238095238095,
+                    "DA_adequacy": 95.0
+                },
+                "MBart50": {
+                    "output text": "În cazul pacienţilor cu hipertensie arterială pulmonară, poate exista un potenţial de creştere a riscului de sângerare atunci când se iniţie sildenafilul în cazul pacienţilor care utilizează deja un antagonist de vitamine K, în special în cazul pacienţilor cu hipertensie arterială pulmonară secundară la boala tămânilor conective.",
+                    "bleu": 20.397596514583338,
+                    "chrf": 62.55955973970836,
+                    "ter": 71.42857142857143,
+                    "DA_adequacy": 40.0
+                }
+            },
+            {
+                "SRC": "Biopsy specimen - staining pattern",
+                "REF": "Specimen de biopsie - gradul de colorație",
+                "OPUS": {
+                    "output text": "Model de biopsie - model de colorare",
+                    "bleu": 26.269098944241588,
+                    "chrf": 46.926637877154256,
+                    "ter": 42.857142857142854,
+                    "DA_adequacy": 85.0
+                },
+                "MBart50": {
+                    "output text": "Exemplul de biopsie - modelul de colorare",
+                    "bleu": 26.269098944241588,
+                    "chrf": 49.06031547516368,
+                    "ter": 42.857142857142854,
+                    "DA_adequacy": 90.0
+                }
+            },
+            {
+                "SRC": "(ii) Clinical significance of reduced plasma LNG levels",
+                "REF": "(ii) Semnificația clinică a nivelurilor plasmatice reduse de LNG",
+                "OPUS": {
+                    "output text": "(ii) Semnificaţia clinică a concentraţiilor plasmatice reduse de GNL",
+                    "bleu": 26.65837681702885,
+                    "chrf": 70.88598409390772,
+                    "ter": 33.33333333333333,
+                    "DA_adequacy": 90.0
+                },
+                "MBart50": {
+                    "output text": "ii) Importanţa clinică a nivelurilor reduse de LNG în plasma",
+                    "bleu": 26.65837681702885,
+                    "chrf": 58.985059389692864,
+                    "ter": 55.55555555555556,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "The reasons for the under-reporting are not known but may be due to an expectation of lower efficacy compared to other contraceptives.",
+                "REF": "Nu sunt cunoscute motivele subraportării, însă este posibil ca aceasta să se datoreze preconizării unei eficacități mai scăzute față de cea a celorlalte contraceptive.",
+                "OPUS": {
+                    "output text": "Motivele pentru subraportare nu sunt cunoscute, dar pot fi datorate speranţei unei eficacităţi mai mici comparativ cu alte contraceptive.",
+                    "bleu": 4.656259916174615,
+                    "chrf": 44.49695079303059,
+                    "ter": 79.16666666666666,
+                    "DA_adequacy": 85.0
+                },
+                "MBart50": {
+                    "output text": "Motivele subreportării nu sunt cunoscute, dar s-ar putea datora unei aşteptări de eficienţă mai scăzută în comparaţie cu alte contracepţii.",
+                    "bleu": 3.9394263649709464,
+                    "chrf": 42.80981489870527,
+                    "ter": 87.5,
+                    "DA_adequacy": 85.0
+                }
+            },
+            {
+                "SRC": "• other skin problems such as redness of the skin or eczema (redness, itching, burning or blistering),",
+                "REF": "• alte probleme ale pielii, cum sunt înroşire a pielii sau eczemă (înroşire, mâncărime, senzaţie de arsură sau formare de vezicule), • pielea dumneavoastră devine mai sensibilă la soare,",
+                "OPUS": {
+                    "output text": "• alte probleme ale pielii, cum sunt înroşirea pielii sau eczeme (roşeaţă, mâncărime, arsură sau vezicule),",
+                    "bleu": 25.77588748606649,
+                    "chrf": 52.866446072371765,
+                    "ter": 55.172413793103445,
+                    "DA_adequacy": 90.0
+                },
+                "MBart50": {
+                    "output text": "• alte probleme cu piele, cum ar fi boala кожи sau eczema (boala, jefuirea, arderea sau izbucnirea),",
+                    "bleu": 5.85776661445423,
+                    "chrf": 23.272422311542382,
+                    "ter": 79.3103448275862,
+                    "DA_adequacy": 40.0
+                }
+            },
+            {
+                "SRC": "Cases of interstitial lung disease including pneumonitis and pulmonary fibrosis have been reported in post-marketing experience.",
+                "REF": "După punerea pe piaţă, au fost raportate cazuri de boală pulmonară interstiţială, inclusiv pneumonită şi fibroză pulmonară.",
+                "OPUS": {
+                    "output text": "În experienţa după punerea pe piaţă au fost raportate cazuri de boală pulmonară interstiţială, inclusiv pneumonită şi fibroză pulmonară.",
+                    "bleu": 76.1827408333416,
+                    "chrf": 93.69351127092618,
+                    "ter": 17.647058823529413,
+                    "DA_adequacy": 90.0
+                },
+                "MBart50": {
+                    "output text": "Cazuri de boli pulmonare interstitiale, inclusiv pneumonitis şi fibroză pulmonară, au fost raportate în experienţa post-marketing.",
+                    "bleu": 20.37792411904348,
+                    "chrf": 62.78046114555694,
+                    "ter": 82.35294117647058,
+                    "DA_adequacy": 60.0
+                }
+            },
+            {
+                "SRC": "Antibiotic resistance is the ability of bacteria to grow in the presence of an antibiotic that would normally kill them or limit their growth.",
+                "REF": "Rezistența la antibiotic este capacitatea bacteriilor de a se dezvolta în prezența unui antibiotic care în mod normal le-ar distruge sau le-ar limita dezvoltarea.",
+                "OPUS": {
+                    "output text": "Rezistenţa la antibiotice este capacitatea bacteriilor de a creşte în prezenţa unui antibiotic care în mod normal le-ar ucide sau le-ar limita creşterea.",
+                    "bleu": 44.35790342124191,
+                    "chrf": 72.03297656673722,
+                    "ter": 29.166666666666668,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Rezistenţa la antibiotice este capacitatea bacteriilor de a creşte în prezenţa unui antibiotic care le-ar ucide în mod normal sau le-ar limita creşterea.",
+                    "bleu": 29.098631923997843,
+                    "chrf": 68.29386900919263,
+                    "ter": 37.5,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "In patients with renal impairment, accumulation occurs relative to the degree of impairment.",
+                "REF": "La pacienţii cu afectare renală, acumularea are loc în funcţie de gradul de afectare.",
+                "OPUS": {
+                    "output text": "La pacienţii cu insuficienţă renală, acumularea are loc în raport cu gradul de afectare.",
+                    "bleu": 53.7284965911771,
+                    "chrf": 70.3803961165622,
+                    "ter": 21.428571428571427,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "În pacienţii cu deficienţe renale, acumularea se produce în raport cu gradul de deficienţă.",
+                    "bleu": 9.103526405546068,
+                    "chrf": 44.098797995185116,
+                    "ter": 57.14285714285714,
+                    "DA_adequacy": 85.0
+                }
+            },
+            {
+                "SRC": "In patients with locally advanced squamous cell cancer of the head and neck, cetuximab is used concomitantly with radiation therapy.",
+                "REF": "La pacienții cu cancer cu celule scuamoase al capului și gâtului, local avansat, cetuximab este utilizat în asociere cu radioterapia.",
+                "OPUS": {
+                    "output text": "La pacienţii cu cancer cu celule scuamoase avansat local la nivelul capului şi gâtului, cetuximab este utilizat concomitent cu radioterapie.",
+                    "bleu": 30.901407123321896,
+                    "chrf": 71.85019332707145,
+                    "ter": 55.00000000000001,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "În cazul pacienţilor cu cancerul local avansat al celulelor squamoase ale capului şi colţului, cetuximab este utilizat în concomitent cu terapia radiologică.",
+                    "bleu": 19.38341802345665,
+                    "chrf": 58.83002964822038,
+                    "ter": 80.0,
+                    "DA_adequacy": 75.0
+                }
+            },
+            {
+                "SRC": "The long term effects of increased iridial pigmentation are not known.",
+                "REF": "Nu se cunosc efectele pe termen lung ale hiperpigmentării irisului.",
+                "OPUS": {
+                    "output text": "Nu se cunosc efectele pe termen lung ale creşterii pigmentării iridiale.",
+                    "bleu": 63.15552371794033,
+                    "chrf": 76.76221863299571,
+                    "ter": 30.0,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Efectele pe termen lung ale creşterii pigmentării iridiale nu sunt cunoscute.",
+                    "bleu": 22.416933501922287,
+                    "chrf": 64.75800534986806,
+                    "ter": 80.0,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "Intracranial tumours must be inactive and antitumour therapy must be completed prior to starting GH therapy.",
+                "REF": "Tumorile intracraniene trebuie să fie inactive şi terapia antitumorală trebuie să fie finalizată înainte de a începe terapia GH.",
+                "OPUS": {
+                    "output text": "Tumorile intracraniene trebuie să fie inactive, iar terapia antitumorală trebuie finalizată înainte de începerea tratamentului cu GH.",
+                    "bleu": 38.48963373212608,
+                    "chrf": 79.45884631037563,
+                    "ter": 36.84210526315789,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Tumorele intracranice trebuie să fie inactive, iar terapia antitumor trebuie finalizată înainte de începerea terapiei GH.",
+                    "bleu": 20.3905146835487,
+                    "chrf": 71.00605716910285,
+                    "ter": 52.63157894736842,
+                    "DA_adequacy": 97.5
+                }
+            },
+            {
+                "SRC": "In order to immediately achieve a similar reduction of intragastric acidity as after repeated dosing with 20 mg orally, a first dose of 40 mg intravenously is recommended.",
+                "REF": "Pentru a obţine imediat o reducere similară a acidităţii intragastrice, ca cea după administrarea repetată a unei doze de 20 mg pe cale orală, se recomandă o doză iniţială de 40 mg intravenos.",
+                "OPUS": {
+                    "output text": "Pentru a obţine imediat o reducere similară a acidităţii intragastrice ca după administrarea repetată a 20 mg pe cale orală, se recomandă administrarea intravenoasă a primei doze de 40 mg.",
+                    "bleu": 55.61586612547531,
+                    "chrf": 79.59646210937713,
+                    "ter": 30.303030303030305,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Pentru a obţine imediat o reducere similară a acidităţii intragastrique ca după dozări repetate cu 20 mg oral, o primă doză de 40 mg intravenală este recomandată.",
+                    "bleu": 28.980974962108014,
+                    "chrf": 61.30635576099775,
+                    "ter": 54.54545454545454,
+                    "DA_adequacy": 70.0
+                }
+            },
+            {
+                "SRC": "• If you are taking medicines to help stop blood clots (such as warfarin), you may need extra blood tests.",
+                "REF": "• Dacă luaţi medicamente care ajută la oprirea formării cheagurilor de sânge (cum este warfarina), este posibil să aveţi nevoie de analize de sânge suplimentare.",
+                "OPUS": {
+                    "output text": "• Dacă luaţi medicamente pentru a ajuta la oprirea cheagurilor de sânge (de exemplu warfarina), este posibil să aveţi nevoie de analize de sânge suplimentare.",
+                    "bleu": 64.69233960701192,
+                    "chrf": 79.07901132976224,
+                    "ter": 24.0,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "• Dacă luaţi medicamente care contribuie la stoparea prăbuşirilor de sânge (cum ar fi warfarina), poate fi nevoie de teste suplimentare de sânge.",
+                    "bleu": 28.54714267246818,
+                    "chrf": 57.6367517227389,
+                    "ter": 56.00000000000001,
+                    "DA_adequacy": 50.0
+                }
+            },
+            {
+                "SRC": "Pale milky coloured homogeneous suspension.",
+                "REF": "Suspensie omogenă de culoare uşor lăptoasă.",
+                "OPUS": {
+                    "output text": "Suspensie omogenă de culoare lăptoasă pal.",
+                    "bleu": 45.499414040480374,
+                    "chrf": 79.47743467969562,
+                    "ter": 33.33333333333333,
+                    "DA_adequacy": 90.0
+                },
+                "MBart50": {
+                    "output text": "Suspendare homogenă albă, albă şi albă.",
+                    "bleu": 5.522397783539471,
+                    "chrf": 29.855507572032568,
+                    "ter": 100.0,
+                    "DA_adequacy": 20.0
+                }
+            },
+            {
+                "SRC": "Patients should be instructed to seek medical advice if their asthma remains uncontrolled or worsens after initiation of treatment.",
+                "REF": "Pacienții trebuie instruiți să solicite asistență medicală dacă astmul bronşic nu este menţinut sub control sau se agravează după începerea tratamentului.",
+                "OPUS": {
+                    "output text": "Pacienţii trebuie instruiţi să ceară sfatul medicului dacă astmul bronşic rămâne necontrolat sau se agravează după iniţierea tratamentului.",
+                    "bleu": 18.341917348258505,
+                    "chrf": 59.186419699346956,
+                    "ter": 52.38095238095239,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Pacienţii ar trebui să fie instrucţionaţi să solicite asistenţă medicală în cazul în care asma lor rămâne necontrolată sau se înrăutăţeşte după iniţierea tratamentului.",
+                    "bleu": 5.606668411195422,
+                    "chrf": 51.35523282463305,
+                    "ter": 80.95238095238095,
+                    "DA_adequacy": 70.0
+                }
+            },
+            {
+                "SRC": "Express breast milk during this period and discard the breast milk you have expressed.",
+                "REF": "Stoarceţi laptele matern în timpul acestei perioade şi aruncaţi laptele stors.",
+                "OPUS": {
+                    "output text": "Exprimaţi laptele matern în această perioadă şi aruncaţi laptele pe care l-aţi exprimat.",
+                    "bleu": 18.476860420522186,
+                    "chrf": 55.77450985564681,
+                    "ter": 72.72727272727273,
+                    "DA_adequacy": 30.0
+                },
+                "MBart50": {
+                    "output text": "Îmbunătăţiţi laptele matern în această perioadă şi aruncaţi laptele matern pe care l-aţi exprimat.",
+                    "bleu": 17.098323692758395,
+                    "chrf": 55.26286925433281,
+                    "ter": 81.81818181818183,
+                    "DA_adequacy": 20.0
+                }
+            }
+        ],
+        "OPUS": {
+            "bleu": 46.67765386322672,
+            "chrf": 71.09226834336329,
+            "ter": 40.243902439024396,
+            "DA_adequacy": 92.6
+        },
+        "MBart50": {
+            "bleu": 25.8462024693704,
+            "chrf": 57.000779020670365,
+            "ter": 62.02090592334495,
+            "DA_adequacy": 70.5
+        }
+    },
+    "literary": {
+        "SRC_lang": "en",
+        "REF_lang": "ro",
+        "sents": [
+            {
+                "SRC": "They're good enough, but they're translations.",
+                "REF": "Sunt destul de bune, dar sunt traduceri.",
+                "OPUS": {
+                    "output text": "Sunt destul de bune, dar sunt traduceri.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 100.00000000000004,
+                    "chrf": 100.0,
+                    "ter": 0.0
+                },
+                "MBart50": {
+                    "output text": "Sunt destul de bune, dar sunt traduceri.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 100.00000000000004,
+                    "chrf": 100.0,
+                    "ter": 0.0
+                }
+            },
+            {
+                "SRC": "It had begun itching again.",
+                "REF": "Aia mică a adus unu acasă alaltăieri seară și l-a-ncercat la ușa de la salon.",
+                "OPUS": {
+                    "output text": "A început să mă mănânce din nou.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 2.0315766105349127,
+                    "chrf": 7.221986409300747,
+                    "ter": 93.33333333333333
+                },
+                "MBart50": {
+                    "output text": "A început din nou să se stingă.",
+                    "DA_adequacy": 30.0,
+                    "bleu": 2.0315766105349127,
+                    "chrf": 8.16177667309994,
+                    "ter": 93.33333333333333
+                }
+            },
+            {
+                "SRC": "They were beneath suspicion.",
+                "REF": "Erau în afară de orice bănuială",
+                "OPUS": {
+                    "output text": "Erau sub suspiciune.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 9.688464563433238,
+                    "chrf": 12.630066998665294,
+                    "ter": 83.33333333333334
+                },
+                "MBart50": {
+                    "output text": "Aceştia nu erau suspecţi.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 0.0,
+                    "chrf": 11.437083330001306,
+                    "ter": 100.0
+                }
+            },
+            {
+                "SRC": "Even at that time Winston had not imagined that the people who were wiped out in the purges had actually committed the crimes that they were accused of.",
+                "REF": "Nici pe atunci Winston nu-și închipuia că oamenii radiați în marile epurări comiseseră cu adevărat crimele care li se puneau în spate.",
+                "OPUS": {
+                    "output text": "Chiar şi atunci Winston nu şi-a imaginat că oamenii care au fost ucişi în epurări au comis de fapt crimele de care au fost acuzaţi.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 5.004175368982553,
+                    "chrf": 39.94366112392717,
+                    "ter": 86.36363636363636
+                },
+                "MBart50": {
+                    "output text": "Chiar şi în acel moment Winston nu şi-a imaginat că oamenii care au fost eliminaţi în purtări au comis de fapt crimele pentru care au fost acuzaţi.",
+                    "DA_adequacy": 50.0,
+                    "bleu": 3.776949794525175,
+                    "chrf": 33.834108143736465,
+                    "ter": 100.0
+                }
+            },
+            {
+                "SRC": "Lay down quick!",
+                "REF": "Culcă-te pă jos, repede!",
+                "OPUS": {
+                    "output text": "Întinde-te repede!",
+                    "DA_adequacy": 100.0,
+                    "bleu": 20.24518585186855,
+                    "chrf": 29.847370667261657,
+                    "ter": 75.0
+                },
+                "MBart50": {
+                    "output text": "Staţi repede!",
+                    "DA_adequacy": 20.0,
+                    "bleu": 20.24518585186855,
+                    "chrf": 27.055280154185517,
+                    "ter": 75.0
+                }
+            },
+            {
+                "SRC": "The proles were supposed not to drink gin, though in practice they could get hold of it easily enough.",
+                "REF": "Prolii nu aveau voie să bea gin, deși, în realitate, puteau să și-l procure destul de ușor.",
+                "OPUS": {
+                    "output text": "Prolii nu ar fi trebuit să bea gin, deși, în practică, ei ar putea obține de ea destul de ușor.",
+                    "DA_adequacy": 40.0,
+                    "bleu": 37.23091902601645,
+                    "chrf": 51.422810609135674,
+                    "ter": 58.82352941176471
+                },
+                "MBart50": {
+                    "output text": "Vorbitorii nu ar fi trebuit să bea gin, deşi, în practică, au putut să-l obţină destul de uşor.",
+                    "DA_adequacy": 40.0,
+                    "bleu": 15.821285888349262,
+                    "chrf": 35.54478399263473,
+                    "ter": 64.70588235294117
+                }
+            },
+            {
+                "SRC": "What is it?",
+                "REF": "Ce e asta?",
+                "OPUS": {
+                    "output text": "Ce este?",
+                    "DA_adequacy": 100.0,
+                    "bleu": 24.840753130578644,
+                    "chrf": 23.047933414170444,
+                    "ter": 66.66666666666666
+                },
+                "MBart50": {
+                    "output text": "Ce înseamnă acest lucru?",
+                    "DA_adequacy": 90.0,
+                    "bleu": 12.703318703865365,
+                    "chrf": 17.793310353632073,
+                    "ter": 100.0
+                }
+            },
+            {
+                "SRC": "But he lingered for some minutes more, talking to the old man, whose name, he discovered, was not Weeks - as one might have gathered from the inscription over the shop-front - but Charrington.",
+                "REF": "Mai zăbovi câteva minute, de vorbă cu bătrânul, și descoperi că nu-l chema Weeks, așa cum s-ar fi putut crede din firma de deasupra intrării, ci Charrington.",
+                "OPUS": {
+                    "output text": "Dar el a zăbovit pentru câteva minute mai mult, vorbind cu bătrânul, al cărui nume, a descoperit el, nu a fost Weeks - cum s-ar fi putut aduna de pe inscripția de peste magazin-front - dar Charrington.",
+                    "DA_adequacy": 30.0,
+                    "bleu": 10.736868093256279,
+                    "chrf": 47.90782003736671,
+                    "ter": 103.7037037037037
+                },
+                "MBart50": {
+                    "output text": "Dar el a rămas câteva minute mai mult, discutând cu bătrânul, al cărui nume, a descoperit el, nu era Weeks - după cum s-ar fi putut observa de pe inscripţia de pe faţa magazinului - ci Charrington.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 12.100858552701563,
+                    "chrf": 48.19602185651767,
+                    "ter": 100.0
+                }
+            },
+            {
+                "SRC": "Probably she had crushed her hand while swinging round one of the big kaleidoscopes on which the plots of novels were roughed in.",
+                "REF": "Probabil că-și zdrobise mâna tot învârtindu-se pe lângă vreunul din marile caleidoscoape pe care se strunjeau intrigile romanelor.",
+                "OPUS": {
+                    "output text": "Probabil că şi-a zdrobit mâna în timp ce se învârtea în jurul unuia dintre marile caleidoscoape pe care se aflau intrigile romanelor.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 21.800193956058234,
+                    "chrf": 59.89127910406662,
+                    "ter": 72.22222222222221
+                },
+                "MBart50": {
+                    "output text": "Probabil că şi-a prăbuşit mâna în timp ce se îndreaptă în jurul unuia dintre cele mai mari kaleidoscope pe care au fost îngrăşite planurile romanelor.",
+                    "DA_adequacy": 10.0,
+                    "bleu": 4.699443186217678,
+                    "chrf": 42.67751690927139,
+                    "ter": 111.11111111111111
+                }
+            },
+            {
+                "SRC": "Again the terrible fear seized upon Winston.",
+                "REF": "Pe Winston îl năpădi iarăși teama aceea cumplită.",
+                "OPUS": {
+                    "output text": "Din nou teribila frică a cuprins-o pe Winston.",
+                    "DA_adequacy": 69.0,
+                    "bleu": 5.669791110976001,
+                    "chrf": 22.879817389082977,
+                    "ter": 100.0
+                },
+                "MBart50": {
+                    "output text": "Din nou, Winston a fost lovit de teama teribilă.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 4.9323515694897075,
+                    "chrf": 24.785545037318123,
+                    "ter": 100.0
+                }
+            },
+            {
+                "SRC": "He did not feel any temptation to tell lies to her.",
+                "REF": "Nu simțea deloc nevoia să-i spună minciuni.",
+                "OPUS": {
+                    "output text": "Nu s-a simţit tentat s-o mintă.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 6.770186228657864,
+                    "chrf": 14.075805412511247,
+                    "ter": 85.71428571428571
+                },
+                "MBart50": {
+                    "output text": "Nu a simţit nicio tentaţie de a-i spune minciuni.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 9.287528999566801,
+                    "chrf": 38.1748918326153,
+                    "ter": 100.0
+                }
+            },
+            {
+                "SRC": "If you kept the small rules, you could break the big ones.",
+                "REF": "Dacă respectai regulile mărunte, le puteai încălca pe cele mari.",
+                "OPUS": {
+                    "output text": "Dacă ai respecta regulile mici, le-ai putea încălca pe cele mari.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 32.523403430389784,
+                    "chrf": 64.18914042480448,
+                    "ter": 50.0
+                },
+                "MBart50": {
+                    "output text": "Dacă aţi respectat regulile mici, aţi putea încălca cele mari.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 15.580105704117443,
+                    "chrf": 53.41813272921866,
+                    "ter": 60.0
+                }
+            },
+            {
+                "SRC": "There was nobody of whom they could ask the way.",
+                "REF": "În jur nu era nimeni pe care să-l întrebe de drum.",
+                "OPUS": {
+                    "output text": "Nimeni dintre ei nu putea întreba drumul.",
+                    "DA_adequacy": 30.0,
+                    "bleu": 3.983253478176822,
+                    "chrf": 27.284222828637755,
+                    "ter": 90.9090909090909
+                },
+                "MBart50": {
+                    "output text": "Nu a existat nimeni de la care să poată întreba calea.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 4.789232204309912,
+                    "chrf": 30.96658806563553,
+                    "ter": 90.9090909090909
+                }
+            },
+            {
+                "SRC": "One tuft was of two colours, magenta and brick-red, apparently growing on the same root.",
+                "REF": "Una dintre tufe avea flori de două culori, fucsină și purpură, care, dacă te uitai atent, creșteau din aceeași rădăcină.",
+                "OPUS": {
+                    "output text": "Un tuft avea două culori, magenta şi cărămidă-roşu, aparent crescând pe aceeaşi rădăcină.",
+                    "DA_adequacy": 20.0,
+                    "bleu": 7.0947324317521465,
+                    "chrf": 31.667302456142338,
+                    "ter": 80.0
+                },
+                "MBart50": {
+                    "output text": "Un tuft era alcătuit din două culori, magenta şi roşu de cifră, aparent crescând pe aceeaşi rădăcină.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 7.849562201793242,
+                    "chrf": 33.70614773392975,
+                    "ter": 85.0
+                }
+            },
+            {
+                "SRC": "Presently they fell asleep for a little while.",
+                "REF": "Imediat după aceea ațipiră amândoi.",
+                "OPUS": {
+                    "output text": "În prezent au adormit pentru o vreme.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 5.522397783539471,
+                    "chrf": 10.250896057347669,
+                    "ter": 140.0
+                },
+                "MBart50": {
+                    "output text": "Aceştia s-au dormit puţin timp.",
+                    "DA_adequacy": 30.0,
+                    "bleu": 8.116697886877475,
+                    "chrf": 12.197985275834293,
+                    "ter": 100.0
+                }
+            },
+            {
+                "SRC": "Even if the fabulous Brotherhood was a reality, there still remained the difficulty of finding one's way into it.",
+                "REF": "Chiar dacă acea legendară Frăție exista într-adevăr, tot mai aveau în față dificultatea de a găsi modul în care să adere la ea.",
+                "OPUS": {
+                    "output text": "Chiar dacă fabuloasa Frăţie era o realitate, mai rămânea încă dificultatea de a găsi calea spre ea.",
+                    "DA_adequacy": 80.0,
+                    "bleu": 13.20400322138432,
+                    "chrf": 37.89632924798239,
+                    "ter": 65.21739130434783
+                },
+                "MBart50": {
+                    "output text": "Chiar dacă fabulousa Fraternitate a fost o realitate, a rămas încă dificultatea de a găsi calea către ea.",
+                    "DA_adequacy": 30.0,
+                    "bleu": 12.990047858105262,
+                    "chrf": 37.344749640032745,
+                    "ter": 69.56521739130434
+                }
+            },
+            {
+                "SRC": "I dreamt - he began, and stopped short.",
+                "REF": "Am visat..., începu el și se opri brusc.",
+                "OPUS": {
+                    "output text": "Am visat - el a început, și sa oprit scurt.",
+                    "DA_adequacy": 20.0,
+                    "bleu": 8.201060181277787,
+                    "chrf": 39.34280614131819,
+                    "ter": 87.5
+                },
+                "MBart50": {
+                    "output text": "Am visat - a început şi s-a oprit.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 6.7661652521453,
+                    "chrf": 34.78590044475951,
+                    "ter": 87.5
+                }
+            },
+            {
+                "SRC": "He lay back with his eyes shut, still sodden in the atmosphere of the dream.",
+                "REF": "Rămăsese culcat, cu ochii închiși, adâncindu-se în continuare în atmosfera visului.",
+                "OPUS": {
+                    "output text": "S-a întins pe spate cu ochii închişi, încă udându-se în atmosfera visului.",
+                    "DA_adequacy": 69.0,
+                    "bleu": 21.97281387499715,
+                    "chrf": 54.632973908917116,
+                    "ter": 72.72727272727273
+                },
+                "MBart50": {
+                    "output text": "El s-a întors cu ochii închişi, încă umbrit în atmosfera visului.",
+                    "DA_adequacy": 50.0,
+                    "bleu": 22.131477988685884,
+                    "chrf": 44.54412580772269,
+                    "ter": 63.63636363636363
+                }
+            },
+            {
+                "SRC": "And in the meantime, is there anything that you wish to say before you leave?",
+                "REF": "Până atunci, însă, vrei să-mi spui ceva înainte de a pleca?",
+                "OPUS": {
+                    "output text": "Și între timp, este ceva ce doriți să spuneți înainte de a pleca?",
+                    "DA_adequacy": 90.0,
+                    "bleu": 26.760322756637922,
+                    "chrf": 41.311496707983586,
+                    "ter": 81.81818181818183
+                },
+                "MBart50": {
+                    "output text": "Şi între timp, aţi dori să spuneţi ceva înainte de a pleca?",
+                    "DA_adequacy": 100.0,
+                    "bleu": 36.362270465000705,
+                    "chrf": 48.83390883747435,
+                    "ter": 63.63636363636363
+                }
+            },
+            {
+                "SRC": "In so far as the war has a direct economic purpose, it is a war for labour power.",
+                "REF": "Atât cât mai are o rațiune economică direct, războiul se poartă pentru forța de muncă.",
+                "OPUS": {
+                    "output text": "În măsura în care războiul are un scop economic direct, este un război pentru forţa de muncă.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 10.657284485555579,
+                    "chrf": 46.34225686117865,
+                    "ter": 80.0
+                },
+                "MBart50": {
+                    "output text": "În măsura în care războiul are un scop economic direct, este un război pentru puterea forţei de muncă.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 10.079037376973913,
+                    "chrf": 41.795408129916275,
+                    "ter": 86.66666666666667
+                }
+            },
+            {
+                "SRC": "It had been preached by kings and aristocrats and by the priests, lawyers, and the like who were parasitical upon them, and it had generally been softened by promises of compensation in an imaginary world beyond the grave.",
+                "REF": "Au propovăduit-o regii și aristocrații pe de-o parte, iar pe de altă parte, preoții, avocații și alții cara parazitau pe lângă cei dintâi, făgăduind, în același timp, o compensație în lumea fictivă de dincolo de mormânt.",
+                "OPUS": {
+                    "output text": "Ea fusese predicată de regi şi de aristocraţi şi de preoţi, avocaţi şi asemenea celor care erau parazitaţi asupra lor şi fusese în general înmuiată de promisiunile de compensaţie într-o lume imaginară de dincolo de mormânt.",
+                    "DA_adequacy": 50.0,
+                    "bleu": 8.94524685487598,
+                    "chrf": 36.66679099015484,
+                    "ter": 88.88888888888889
+                },
+                "MBart50": {
+                    "output text": "A fost predicată de regele şi aristocraţi şi de preoţi, avocaţi şi de alţii care erau paraziţi ai lor şi, în general, a fost atenuată de promisiunile de compensare într-o lume imaginată dincolo de mormânt.",
+                    "DA_adequacy": 80.0,
+                    "bleu": 7.2009760393362425,
+                    "chrf": 35.86451184976095,
+                    "ter": 91.66666666666666
+                }
+            },
+            {
+                "SRC": "All past oligarchies have fallen from power either because they ossified or because they grew soft.",
+                "REF": "Toate oligarhiile din trecut au căzut de la putere fie pentru că s-au osificat, fie pentru că s-au înmuiat.",
+                "OPUS": {
+                    "output text": "Toate oligarhiile trecute au căzut de la putere fie pentru că au fost osificate, fie pentru că s-au înmuiat.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 63.64058876086589,
+                    "chrf": 80.74796639871995,
+                    "ter": 26.31578947368421
+                },
+                "MBart50": {
+                    "output text": "Toate oligarhiile din trecut au căzut din putere fie pentru că s-au ossificat, fie pentru că au devenit mai uşoare.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 49.296643949535216,
+                    "chrf": 79.10840330704144,
+                    "ter": 36.84210526315789
+                }
+            },
+            {
+                "SRC": "There was another crash.",
+                "REF": "Se auzi o nouă bufnitură.",
+                "OPUS": {
+                    "output text": "A fost un alt accident.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 8.116697886877475,
+                    "chrf": 8.940958245304161,
+                    "ter": 100.0
+                },
+                "MBart50": {
+                    "output text": "A existat un alt accident.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 8.116697886877475,
+                    "chrf": 7.900554832767772,
+                    "ter": 100.0
+                }
+            },
+            {
+                "SRC": "An oblong slip of newspaper had appeared between O'Brien's fingers.",
+                "REF": "O bucată dreptunghiulară de ziar apăru între degetele lui O'Brien.",
+                "OPUS": {
+                    "output text": "Printre degetele lui O'Brien apărea o alungire de ziar.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 18.60045401920258,
+                    "chrf": 51.30550986694745,
+                    "ter": 90.0
+                },
+                "MBart50": {
+                    "output text": "Între degetele lui O'Brien s-a prezentat o rută lungă de ziare.",
+                    "DA_adequacy": 20.0,
+                    "bleu": 14.323145079400492,
+                    "chrf": 51.40485540394364,
+                    "ter": 90.0
+                }
+            },
+            {
+                "SRC": "You are a difficult case.",
+                "REF": "Ești un caz mai dificil.",
+                "OPUS": {
+                    "output text": "Eşti un caz dificil.",
+                    "DA_adequacy": 80.0,
+                    "bleu": 24.736929544091932,
+                    "chrf": 58.5697532275833,
+                    "ter": 40.0
+                },
+                "MBart50": {
+                    "output text": "Sunteţi un caz dificil.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 24.736929544091932,
+                    "chrf": 50.82315674807935,
+                    "ter": 40.0
+                }
+            }
+        ],
+        "OPUS": {
+            "bleu": 19.642166123910606,
+            "chrf": 43.681329986382195,
+            "ter": 77.39938080495357,
+            "DA_adequacy": 71.52
+        },
+        "MBart50": {
+            "bleu": 15.45245859655123,
+            "chrf": 40.74095204676586,
+            "ter": 82.04334365325077,
+            "DA_adequacy": 64.4
+        }
+    },
+    "news": {
+        "SRC_lang": "de",
+        "REF_lang": "en",
+        "sents": [
+            {
+                "SRC": "Hierbei übersah sie den aus Richtung Nellingen kommenden 24jährigen, vorfahrtberechtigten Motoradfahrer.",
+                "REF": "At this, she overlooked the 24 year old motorbike driver with right-of way who came from the direction of Nellingen.",
+                "LibreTranslate": {
+                    "output text": "In this respect, it overlooked the 24-year-old driving driver coming from nellingen.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 7.995422327180999,
+                    "DA_fluency": 80.0,
+                    "chrf": 36.63908986591301,
+                    "ter": 80.0
+                },
+                "OPUS": {
+                    "output text": "She overlooked the 24-year-old motorad driver coming from the direction of Nellingen.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 26.533258812855614,
+                    "chrf": 57.64918372146957,
+                    "ter": 55.00000000000001,
+                    "DA_fluency": 90.0
+                },
+                "MBart50": {
+                    "output text": "In this case, she oversaw the 24-year-old motorcyclist who was entitled to drive from Nellingen.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 6.627456392561483,
+                    "chrf": 37.85398787941702,
+                    "ter": 85.0,
+                    "DA_fluency": 70.0
+                }
+            },
+            {
+                "SRC": "Ein Sicherheitsdienst überwacht das Ausgehverbot.",
+                "REF": "A security service monitors the curfew.",
+                "LibreTranslate": {
+                    "output text": "a security service monitors the ban.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 43.47208719449914,
+                    "DA_fluency": 95.0,
+                    "chrf": 76.47761895288436,
+                    "ter": 16.666666666666664
+                },
+                "OPUS": {
+                    "output text": "A security department is monitoring the ban on going out.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 8.913765521398126,
+                    "chrf": 37.59272008370958,
+                    "ter": 116.66666666666667,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "A security service monitors the release ban.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 54.10822690539397,
+                    "chrf": 77.22084221839116,
+                    "ter": 33.33333333333333,
+                    "DA_fluency": 50.0
+                }
+            },
+            {
+                "SRC": "Das ist offensichtlich nicht passiert\"",
+                "REF": "And that obviously did not happen.”",
+                "LibreTranslate": {
+                    "output text": "that is obviously not happening\"",
+                    "DA_adequacy": 90.0,
+                    "bleu": 7.654112967106117,
+                    "DA_fluency": 100.0,
+                    "chrf": 54.32362647547338,
+                    "ter": 66.66666666666666
+                },
+                "OPUS": {
+                    "output text": "This obviously didn't happen.\"",
+                    "DA_adequacy": 100.0,
+                    "bleu": 12.872632311973014,
+                    "chrf": 59.47656584749345,
+                    "ter": 83.33333333333334,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "That's obviously not happened\"",
+                    "DA_adequacy": 90.0,
+                    "bleu": 6.9717291216921975,
+                    "chrf": 51.76146165621343,
+                    "ter": 66.66666666666666,
+                    "DA_fluency": 100.0
+                }
+            },
+            {
+                "SRC": "Ein Passant alarmierte die Polizei, die mit mehreren Streifen anrückte.",
+                "REF": "A passerby called the police, who called-up multiple squad cars.",
+                "OPUS": {
+                    "output text": "A passerby alerted the police, who moved in with several stripes.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 23.90108882452814,
+                    "chrf": 42.722762884065155,
+                    "ter": 60.0,
+                    "DA_fluency": 90.0
+                },
+                "MBart50": {
+                    "output text": "A passenger alerted the police, which moved with several stripes.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 14.323145079400492,
+                    "chrf": 36.17733363709456,
+                    "ter": 70.0,
+                    "DA_fluency": 50.0
+                },
+                "LibreTranslate": {
+                    "output text": "a passant alarmed the police, who touched with several strips.",
+                    "DA_adequacy": 50.0,
+                    "bleu": 22.416933501922287,
+                    "DA_fluency": 30.0,
+                    "chrf": 35.918874599250934,
+                    "ter": 60.0
+                }
+            },
+            {
+                "SRC": "Es wird eine Entscheidung des EuGH dazu erwartet.",
+                "REF": "This is waiting on a decision from the EuGH.",
+                "OPUS": {
+                    "output text": "A decision of the ECJ is expected.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 6.082317172853824,
+                    "chrf": 25.404281204935337,
+                    "ter": 77.77777777777779,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "A decision of the Court of Justice is expected.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 5.934202609760488,
+                    "chrf": 24.647384636640627,
+                    "ter": 88.88888888888889,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "a decision of the eugh is expected.",
+                    "DA_adequacy": 40.0,
+                    "bleu": 10.816059393812111,
+                    "DA_fluency": 50.0,
+                    "chrf": 28.80997753367308,
+                    "ter": 77.77777777777779
+                }
+            },
+            {
+                "SRC": "Sein Grund für den Besuch: Chicken Wings.",
+                "REF": "His reason for the visit: chicken wings.",
+                "OPUS": {
+                    "output text": "His reason for the visit: Chicken Wings.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 61.04735835807847,
+                    "chrf": 77.12122327442455,
+                    "ter": 0.0,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "His reason for visiting: Chicken Wings.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 20.612390921238426,
+                    "chrf": 56.62008341611495,
+                    "ter": 28.57142857142857,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "his ground for the visit: chicken wings.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 72.59795291154772,
+                    "DA_fluency": 50.0,
+                    "chrf": 74.30018817534766,
+                    "ter": 14.285714285714285
+                }
+            },
+            {
+                "SRC": "Die Pressekonferenz wird auf unserer Homepage live zu sehen sein.",
+                "REF": "You can watch live the press conference on our homepage.",
+                "OPUS": {
+                    "output text": "The press conference will be shown live on our homepage.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 28.997844147152072,
+                    "chrf": 65.1571771231109,
+                    "ter": 40.0,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "The press conference will be available live on our homepage.",
+                    "DA_adequacy": 80.0,
+                    "bleu": 28.997844147152072,
+                    "chrf": 63.66296617439636,
+                    "ter": 40.0,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "the pressekonferenz will be on our homepage live.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 16.89983564524027,
+                    "DA_fluency": 50.0,
+                    "chrf": 53.83876757358732,
+                    "ter": 90.0
+                }
+            },
+            {
+                "SRC": "Das Feuer war an drei weit voneinander entfernten Stellen in der Kirche ausgebrochen.",
+                "REF": "The fire broke out in three places in the church, which were at a considerable distance from one another.",
+                "OPUS": {
+                    "output text": "The fire had broken out in three distant places in the church.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 17.295402073237096,
+                    "chrf": 44.37137015804902,
+                    "ter": 68.42105263157895,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "The fire broke out at three far-off locations in the church.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 15.834262601685023,
+                    "chrf": 36.70624383410308,
+                    "ter": 68.42105263157895,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "the fire was broken out at three distant places in the church.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 12.800029671182996,
+                    "DA_fluency": 70.0,
+                    "chrf": 39.34720165407041,
+                    "ter": 73.68421052631578
+                }
+            },
+            {
+                "SRC": "Er habe aber Zweifel, ob es in der Deutschen Fußball Liga die Bereitschaft gebe, Mehrheitsbeteiligungen zuzulassen, die in der Bundesliga durch die 50+1-Regel untersagt sind.",
+                "REF": "He has doubts, however, about whether the German Football League is ready to allow majority stakes, which are prevented in the league by the 50+1 rule.",
+                "OPUS": {
+                    "output text": "However, he had doubts as to whether there was a willingness in the German Football League to allow majority participations, which are prohibited in the Bundesliga by the 50+1 rule.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 32.4069446727242,
+                    "chrf": 62.217318952859515,
+                    "ter": 57.692307692307686,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "However, he doubts whether there is a willingness in the German Football League to allow majority participations that are prohibited in the Bundesliga by the 50+1 rule.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 32.91136455408918,
+                    "chrf": 58.70448858776642,
+                    "ter": 50.0,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "he doubted, however, whether in the German football league there was the willingness to allow majority holdings which are prohibited in the Bundesliga by the 50+1 rule.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 30.677674731137834,
+                    "DA_fluency": 100.0,
+                    "chrf": 55.39592514353847,
+                    "ter": 42.30769230769231
+                }
+            },
+            {
+                "SRC": "Es wussten ja viele im DFB davon\".",
+                "REF": "Many in the DFB knew about this”.",
+                "OPUS": {
+                    "output text": "Many people in the DFB knew about it.\"",
+                    "DA_adequacy": 90.0,
+                    "bleu": 42.7287006396234,
+                    "chrf": 65.14363804941875,
+                    "ter": 28.57142857142857,
+                    "DA_fluency": 90.0
+                },
+                "MBart50": {
+                    "output text": "Many in the DFB knew about it.\"",
+                    "DA_adequacy": 80.0,
+                    "bleu": 61.04735835807847,
+                    "chrf": 78.52594797502881,
+                    "ter": 14.285714285714285,
+                    "DA_fluency": 90.0
+                },
+                "LibreTranslate": {
+                    "output text": "they knew many in the dfb.\"",
+                    "DA_adequacy": 60.0,
+                    "bleu": 13.134549472120788,
+                    "DA_fluency": 30.0,
+                    "chrf": 32.90560541055012,
+                    "ter": 71.42857142857143
+                }
+            },
+            {
+                "SRC": "Eine kleine Gruppe von Demonstranten habe Fenster eingeschlagen, Feuerwerkskörper abgeschossen und Polizeibeamte mit Lasern geblendet, teilte die Polizei von Oakland am späten Samstagabend (Ortszeit) mit.",
+                "REF": "A small group of demonstrators broke in windows, lit off fireworks and blinded police with lasers, reported Oakland Police late Saturday evening (local time).",
+                "OPUS": {
+                    "output text": "A small group of demonstrators broke windows, shot down fireworks, and blinded police officers with lasers, the Oakland police reported on late Saturday evening (local time).",
+                    "DA_adequacy": 90.0,
+                    "bleu": 46.62912968400481,
+                    "chrf": 77.82482557988781,
+                    "ter": 33.33333333333333,
+                    "DA_fluency": 95.0
+                },
+                "MBart50": {
+                    "output text": "A small group of demonstrators hit windows, fired fireworks, and flashed lasers at police officers, Oakland Police reported late Saturday evening (local time).",
+                    "DA_adequacy": 100.0,
+                    "bleu": 42.63631371939535,
+                    "chrf": 69.29786666421343,
+                    "ter": 45.83333333333333,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "a small group of demonstrators have hit windows, fireworks, and police officer blinded with lasern, shared the police of oakland on late Saturday evening (local time).",
+                    "DA_adequacy": 60.0,
+                    "bleu": 33.25892810750689,
+                    "DA_fluency": 40.0,
+                    "chrf": 67.26355403894952,
+                    "ter": 50.0
+                }
+            },
+            {
+                "SRC": "Angenehme Atmosphäre",
+                "REF": "Pleasant atmosphere",
+                "OPUS": {
+                    "output text": "Pleasant atmosphere",
+                    "DA_adequacy": 100.0,
+                    "bleu": 100.00000000000004,
+                    "chrf": 100.0,
+                    "ter": 0.0,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "A pleasant atmosphere",
+                    "DA_adequacy": 100.0,
+                    "bleu": 27.516060407455225,
+                    "chrf": 92.26506423113229,
+                    "ter": 50.0,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "pleasant atmosphere",
+                    "DA_adequacy": 100.0,
+                    "bleu": 49.99999999999999,
+                    "DA_fluency": 100.0,
+                    "chrf": 93.46837666690608,
+                    "ter": 0.0
+                }
+            },
+            {
+                "SRC": "Das Spiel gegen Deportivo La Coruña am vergangenen Montag wurde im letzten Augenblick abgesagt, die Staatsanwaltschaft ermittelt wegen einer möglichen Straftat gegen die öffentliche Gesundheit, die oberste Sportbehörde CSD erwägt den erzwungenen Abstieg des Clubs.",
+                "REF": "The game against Deportivo La Coruña on the previous Monday was cancelled in the last moments, the state prosecution was investigating a possible offense against public health, CSD, the highest sport authority, pondered a forced degrading of the club.",
+                "OPUS": {
+                    "output text": "The match against Deportivo La Coruña last Monday was cancelled at the last moment, the prosecutor's office investigated for a possible offense against public health, the top sports authority CSD considering the forced descent of the club.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 30.56557870690447,
+                    "chrf": 63.502420715373,
+                    "ter": 43.58974358974359,
+                    "DA_fluency": 85.0
+                },
+                "MBart50": {
+                    "output text": "The match against Deportivo La Coruña last Monday was cancelled at the last moment, the prosecution is investigating for a possible offence against public health, the top sports authority CSD considers the forced resignation of the club.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 22.98636031046574,
+                    "chrf": 64.02029398007535,
+                    "ter": 43.58974358974359,
+                    "DA_fluency": 95.0
+                },
+                "LibreTranslate": {
+                    "output text": "the game against deportivo la coruña last Monday was canceled in the last moment, the prosecutor's office determined for a possible punishment against public health, the top sport authority csd considering the forced descending of the club.",
+                    "DA_adequacy": 40.0,
+                    "bleu": 17.90102468309372,
+                    "DA_fluency": 50.0,
+                    "chrf": 58.395910994566805,
+                    "ter": 41.02564102564102
+                }
+            },
+            {
+                "SRC": "Die Polizei führte sie zurück zu ihrem Besitzer.",
+                "REF": "The police were leading them back to their owners.",
+                "OPUS": {
+                    "output text": "The police took her back to her owner.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 12.759307794697138,
+                    "chrf": 39.859186089314456,
+                    "ter": 55.55555555555556,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "The police took her back to her owner.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 12.759307794697138,
+                    "chrf": 39.859186089314456,
+                    "ter": 55.55555555555556,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "the police led her back to her owner.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 10.147104008451905,
+                    "DA_fluency": 100.0,
+                    "chrf": 40.81372496139332,
+                    "ter": 55.55555555555556
+                }
+            },
+            {
+                "SRC": "Radprofi Tony Martin: Karriere-Fortsetzung vorstellbar",
+                "REF": "Bike professional Tony Martin: Continuing carrier is possible",
+                "OPUS": {
+                    "output text": "Bike pro Tony Martin: career continuation imaginable",
+                    "DA_adequacy": 90.0,
+                    "bleu": 19.493995755254467,
+                    "chrf": 42.07049513945243,
+                    "ter": 62.5,
+                    "DA_fluency": 90.0
+                },
+                "MBart50": {
+                    "output text": "Cycling professional Tony Martin: career extension imaginable",
+                    "DA_adequacy": 80.0,
+                    "bleu": 30.509752160562883,
+                    "chrf": 50.13411509060949,
+                    "ter": 62.5,
+                    "DA_fluency": 90.0
+                },
+                "LibreTranslate": {
+                    "output text": "radprofi tony martin: career advancement imaginable",
+                    "DA_adequacy": 70.0,
+                    "bleu": 4.935157841536379,
+                    "DA_fluency": 100.0,
+                    "chrf": 22.353795750100943,
+                    "ter": 75.0
+                }
+            },
+            {
+                "SRC": "Warum der Wagen auf die Gegenspur geriet, war zunächst unklar.",
+                "REF": "The reason for the car veering into oncoming traffic is unclear.",
+                "OPUS": {
+                    "output text": "At first, it was unclear why the car hit the back lane.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 6.754312828675707,
+                    "chrf": 24.073719349174063,
+                    "ter": 100.0,
+                    "DA_fluency": 70.0
+                },
+                "MBart50": {
+                    "output text": "It was initially unclear why the car turned on the opposite track.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 7.347053125977879,
+                    "chrf": 25.477776455497676,
+                    "ter": 100.0,
+                    "DA_fluency": 50.0
+                },
+                "LibreTranslate": {
+                    "output text": "why the car was on the opposite track was initially unclear.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 9.578464408619821,
+                    "DA_fluency": 95.0,
+                    "chrf": 27.672814752790988,
+                    "ter": 81.81818181818183
+                }
+            },
+            {
+                "SRC": "Von den zwölf Insassen der Kutsche wurde ein Mann schwer und ein Mann leicht verletzt, wie die Polizei mitteilte.",
+                "REF": "According to police, one man was severely injured and another lightly injured of the twelve who were sitting in the carriage.",
+                "OPUS": {
+                    "output text": "Of the twelve inmates of the carriage, a man was severely injured and a man was slightly injured, as the police reported.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 20.97823227594147,
+                    "chrf": 58.22780211804252,
+                    "ter": 71.42857142857143,
+                    "DA_fluency": 80.0
+                },
+                "MBart50": {
+                    "output text": "One of the twelve occupants of the carriage was seriously injured and one was slightly injured, according to the police.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 10.738471195135544,
+                    "chrf": 56.0853203397705,
+                    "ter": 71.42857142857143,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "of the twelve inmates of the chase became a man heavy and a man slightly injured as the police told.",
+                    "DA_adequacy": 40.0,
+                    "bleu": 8.08873111772256,
+                    "DA_fluency": 10.0,
+                    "chrf": 35.70069124254087,
+                    "ter": 85.71428571428571
+                }
+            },
+            {
+                "SRC": "Für den Bundesligisten ist es der erste und einzige Härtetest vor dem Rückspiel in der Europa League gegen den FC Basel (6. August).",
+                "REF": "It is the first and only hardness test for the Bundesliga club before the return match against FC Basel in the Europe League (6th of August).",
+                "OPUS": {
+                    "output text": "For the Bundesliga it is the first and only hard test before the rematch in the Europa League against FC Basel (August 6).",
+                    "DA_adequacy": 60.0,
+                    "bleu": 23.025336472018875,
+                    "chrf": 64.61082212906682,
+                    "ter": 38.46153846153847,
+                    "DA_fluency": 80.0
+                },
+                "MBart50": {
+                    "output text": "For the Bundesliga, it is the first and only toughness test before the rematch in the European League against FC Basel (6 August).",
+                    "DA_adequacy": 90.0,
+                    "bleu": 24.963968042813526,
+                    "chrf": 66.80171623977482,
+                    "ter": 42.30769230769231,
+                    "DA_fluency": 70.0
+                },
+                "LibreTranslate": {
+                    "output text": "for the bundesligist it is the first and only hardest before the spin in the europa league against the fc basel (6th august.)",
+                    "DA_adequacy": 40.0,
+                    "bleu": 19.165329693849678,
+                    "DA_fluency": 40.0,
+                    "chrf": 50.33304317278445,
+                    "ter": 61.53846153846154
+                }
+            },
+            {
+                "SRC": "Dazu kommt ein Fall in der Stadt Hof.",
+                "REF": "There was also a case in the city of Hof.",
+                "OPUS": {
+                    "output text": "In addition, there is a case in the city of Hof.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 55.93684915933074,
+                    "chrf": 64.07528284573254,
+                    "ter": 40.0,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "In addition, there is a case in the town of Hof.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 27.968424579665367,
+                    "chrf": 44.54881961230276,
+                    "ter": 50.0,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "a fall in the city hof.",
+                    "DA_adequacy": 20.0,
+                    "bleu": 15.685718045401451,
+                    "DA_fluency": 60.0,
+                    "chrf": 30.992997610785704,
+                    "ter": 50.0
+                }
+            },
+            {
+                "SRC": "Ganze Dörfer stehen unter Wasser.",
+                "REF": "Whole towns are under water.",
+                "OPUS": {
+                    "output text": "Whole villages are under water.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 53.7284965911771,
+                    "chrf": 67.07708352711471,
+                    "ter": 20.0,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "All villages are under water.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 50.81327481546149,
+                    "chrf": 58.715769166819975,
+                    "ter": 40.0,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "whole villages are under water.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 50.81327481546149,
+                    "chrf": 64.05271674385956,
+                    "ter": 20.0
+                }
+            },
+            {
+                "SRC": "Die Zahl der Coronavirus-Infektionen in Niederösterreich ist am Sonntag um 22 auf nunmehr 3.288 gestiegen.",
+                "REF": "The number of Corona virus infections in Lower Austria has increased by 22 to now 3288 on Sunday.",
+                "OPUS": {
+                    "output text": "The number of Coronavirus infections in Lower Austria increased by 22 to 3,288 on Sunday.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 36.7135556815729,
+                    "chrf": 85.72498051383917,
+                    "ter": 27.77777777777778,
+                    "DA_fluency": 100.0
+                },
+                "MBart50": {
+                    "output text": "The number of coronavirus infections in Lower Austria on Sunday rose by 22 to 3,288.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 25.898371711535347,
+                    "chrf": 67.73455553901856,
+                    "ter": 44.44444444444444,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "the number of coronavirus infections in Lower Austria increased by 22 to 3.288 on Sunday.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 33.53865118034518,
+                    "chrf": 79.78980964897691,
+                    "ter": 27.77777777777778
+                }
+            },
+            {
+                "SRC": "Kommt es zu keiner Einigung, droht dem Land erneut die Staatspleite.",
+                "REF": "A government default is looming if no agreement is reached.",
+                "OPUS": {
+                    "output text": "If there is no agreement, the country will again face the state bankruptcy.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 6.250381527944883,
+                    "chrf": 28.642495216262937,
+                    "ter": 130.0,
+                    "DA_fluency": 95.0
+                },
+                "MBart50": {
+                    "output text": "If no agreement is reached, the country is again threatened with a coup d'état.",
+                    "DA_adequacy": 50.0,
+                    "bleu": 16.94357181593088,
+                    "chrf": 43.96047018589008,
+                    "ter": 100.0,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "if there is no agreement, the country is again threatening the state splice.",
+                    "DA_adequacy": 60.0,
+                    "bleu": 6.917184228205472,
+                    "chrf": 30.152400087086207,
+                    "ter": 120.0
+                }
+            },
+            {
+                "SRC": "Beruflich angekommen - privat noch nicht",
+                "REF": "Professionally achieved - privately not there yet.",
+                "OPUS": {
+                    "output text": "Professionally arrived - private not yet",
+                    "DA_adequacy": 50.0,
+                    "bleu": 8.22487964923291,
+                    "chrf": 58.23151628830653,
+                    "ter": 57.14285714285714,
+                    "DA_fluency": 10.0
+                },
+                "MBart50": {
+                    "output text": "Professionally arrived - privately not yet",
+                    "DA_adequacy": 70.0,
+                    "bleu": 24.598127518343304,
+                    "chrf": 67.76061787459449,
+                    "ter": 42.857142857142854,
+                    "DA_fluency": 10.0
+                },
+                "LibreTranslate": {
+                    "output text": "arrived - private not yet",
+                    "DA_adequacy": 20.0,
+                    "bleu": 7.715486568024961,
+                    "chrf": 29.73401168079436,
+                    "ter": 71.42857142857143
+                }
+            },
+            {
+                "SRC": "Der beim BVB für Marketing, Digitalisierung und Internationalisierung zuständige Cramer hofft, dass neben den normalen Zuschauerplätzen auch wieder einige der rund 4000 Plätze im Hospitality-Bereich geöffnet werden können: \"Es ist selbstverständlich ein Schlag ins Kontor, wenn diese Einnahmen komplett wegbrechen\".",
+                "REF": "Cramer, who is responsible for marketing, digitalization and internationalization for BVB, hopes that the circa 4,000 seats in the hospitality area can be opened up, in addition to the normal spectator seats: “Obviously it is a blow to the business if this income is just completely lost”.",
+                "OPUS": {
+                    "output text": "The Cramer, responsible for marketing, digitisation and internationalization at BVB, hopes that in addition to the normal audience seats, some of the approximately 4000 seats in the hospitality area can be opened again: \"It is of course a blow to the account if these revenues break away completely\".",
+                    "DA_adequacy": 70.0,
+                    "bleu": 34.30629592497482,
+                    "chrf": 63.82479480719976,
+                    "ter": 53.191489361702125,
+                    "DA_fluency": 80.0
+                },
+                "MBart50": {
+                    "output text": "Cramer, who is in charge of marketing, digitisation and internationalisation at BVB, hopes that in addition to the normal spectators' seats, some of the around 4000 seats in the hospitality area can also be opened again: \"It is of course a blow to the accounts if these revenues completely disappear.\"",
+                    "DA_adequacy": 95.0,
+                    "bleu": 29.283842845036606,
+                    "chrf": 62.76512162480277,
+                    "ter": 55.319148936170215,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "the cramer who is responsible for marketing, digitization and internationalization at the bwb hopes that, in addition to the normal viewing places, some of the approximately 4000 places in the hospitality area can be opened again: \"It is, of course, a hit into the contor if these take completely break away.\"",
+                    "DA_adequacy": 40.0,
+                    "bleu": 28.500725905408498,
+                    "chrf": 60.76345334814375,
+                    "ter": 63.829787234042556
+                }
+            },
+            {
+                "SRC": "Kaum schwerer als ein Packerl Butter, gerade einmal drei Esslöffel Blut in seinem gesamten Körper: Das war Gabriel, als er geboren wurde - er wog exakt 273 Gramm.",
+                "REF": "Hardly heaver then a pack of butter with just three tablespoons of blood in his body: This was Gabriel at birth; he weighed exactly 273 grams.",
+                "OPUS": {
+                    "output text": "Hardly heavier than a packerl of butter, just three tablespoons of blood in his entire body: that was Gabriel when he was born - he weighed exactly 273 grams.",
+                    "DA_adequacy": 80.0,
+                    "bleu": 38.27491534128693,
+                    "chrf": 71.38501472471714,
+                    "ter": 46.15384615384615,
+                    "DA_fluency": 70.0
+                },
+                "MBart50": {
+                    "output text": "Hardly heavier than a packet of butter, just three tablespoons of blood in his entire body: That was Gabriel when he was born - he weighed exactly 273 grams.",
+                    "DA_adequacy": 100.0,
+                    "bleu": 38.27491534128693,
+                    "chrf": 72.93769129171378,
+                    "ter": 46.15384615384615,
+                    "DA_fluency": 100.0
+                },
+                "LibreTranslate": {
+                    "output text": "barely heavier than a packerl butter, just three tablespoons of blood in its entire body: that was gabriel when he was born - he weighed exactly 273 grams.",
+                    "DA_adequacy": 70.0,
+                    "bleu": 33.018775735516414,
+                    "chrf": 62.45276137077352,
+                    "ter": 57.692307692307686
+                }
+            },
+            {
+                "SRC": "Auch wenn sich am Schluss alle Beteiligten einig waren, dass die direkte Begegnung im Theater- und Bühnenraum noch zusätzliche Reize bieten würde, sieht man im Theater auch die Potenziale für den Kontakt in die Schulen",
+                "REF": "At the end all participants agreed that the direct encounter in a theater and stage room would offer additional appeal but one also saw in the theater the potentials for the contact in schools.",
+                "OPUS": {
+                    "output text": "Although in the end all participants agreed that the direct encounter in the theatre and stage room would offer additional attractions, in the theatre one can also see the potential for contact in the schools",
+                    "DA_adequacy": 80.0,
+                    "bleu": 43.34887126805944,
+                    "chrf": 73.68841388307646,
+                    "ter": 38.23529411764706,
+                    "DA_fluency": 80.0
+                },
+                "MBart50": {
+                    "output text": "Although in the end all the participants agreed that the direct encounter in the theatre and stage room would offer additional attractions, the theatre also has the potential for contact with schools.",
+                    "DA_adequacy": 90.0,
+                    "bleu": 38.05246783703555,
+                    "chrf": 72.04566059870696,
+                    "ter": 38.23529411764706,
+                    "DA_fluency": 85.0
+                },
+                "LibreTranslate": {
+                    "output text": "even if all the participants agreed that the direct meeting in the theatre and stage would offer even more resized, the theater also sees the potential for contact in the schools",
+                    "DA_adequacy": 70.0,
+                    "bleu": 17.33526259585656,
+                    "chrf": 55.380081664567356,
+                    "ter": 50.0
+                }
+            }
+        ],
+        "OPUS": {
+            "bleu": 32.80508523530711,
+            "chrf": 61.34556346961575,
+            "ter": 52.27817745803357,
+            "DA_adequacy": 84.61538461538461
+        },
+        "MBart50": {
+            "bleu": 28.052733775586795,
+            "chrf": 58.9535939420427,
+            "ter": 54.196642685851316,
+            "DA_adequacy": 86.34615384615384
+        },
+        "LibreTranslate": {
+            "bleu": 22.856886005752933,
+            "chrf": 52.252571517138456,
+            "ter": 58.992805755395686,
+            "DA_adequacy": 64.61538461538461
+        }
+    },
+    "legal_DE": {
+        "SRC_lang": "de",
+        "REF_lang": "en",
+        "sents": [
+            {
+                "SRC": "Eine Tat ist zu der Zeit begangen, zu welcher der Täter oder der Teilnehmer gehandelt hat oder im Falle des Unterlassens hätte handeln müssen. Wann der Erfolg eintritt, ist nicht maßgebend.",
+                "REF": "An offence is deemed to have been committed at the time when the offender or the participant acted or, in the case of an omission, was required to act. The time when the result occurs is irrelevant.",
+                "LibreTranslate": {
+                    "output text": "an act is committed at the time at which the worker or the participant acted or should have acted in the event of the failure. when the success occurs is not decisive.",
+                    "bleu": 19.20503361672107,
+                    "chrf": 43.865454104728286,
+                    "ter": 59.45945945945946,
+                    "DA_adequacy": 70.0
+                },
+                "OPUS": {
+                    "output text": "An act is committed at the time at which the perpetrator or participant acted or should have acted in the event of failure. When the success occurs is not decisive.",
+                    "bleu": 11.348973792890236,
+                    "chrf": 40.44253546380245,
+                    "ter": 64.86486486486487,
+                    "DA_adequacy": 70.0
+                },
+                "MBart50": {
+                    "output text": "An act is committed at the time to which the perpetrator or participant has acted or should have acted in the event of surrender. When success occurs, is not decisive.",
+                    "bleu": 9.600314108256445,
+                    "chrf": 37.890303679469184,
+                    "ter": 70.27027027027027,
+                    "DA_adequacy": 70.0
+                }
+            },
+            {
+                "SRC": "Strafbar ist nur vorsätzliches Handeln, wenn nicht das Gesetz fahrlässiges Handeln ausdrücklich mit Strafe bedroht.",
+                "REF": "Unless the law expressly provides for criminal liability for negligent conduct, only intentional conduct attracts criminal liability.",
+                "LibreTranslate": {
+                    "output text": "criminal is only intentional if not the law negligent act explicitly threatened with punishment.",
+                    "bleu": 6.548045327407671,
+                    "chrf": 34.39865043345222,
+                    "ter": 82.35294117647058,
+                    "DA_adequacy": 40.0
+                },
+                "OPUS": {
+                    "output text": "Only deliberate action is punishable if the law explicitly threatens negligent action with punishment.",
+                    "bleu": 4.787344337843918,
+                    "chrf": 25.70863273930531,
+                    "ter": 94.11764705882352,
+                    "DA_adequacy": 60.0
+                },
+                "MBart50": {
+                    "output text": "Only intentional acts are punishable unless the law expressly threatens to punish negligent acts.",
+                    "bleu": 8.910251805984952,
+                    "chrf": 38.74120353736425,
+                    "ter": 76.47058823529412,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "Schuldunfähig ist, wer bei Begehung der Tat noch nicht vierzehn Jahre alt ist.",
+                "REF": "Whoever is under 14 years of age at the time of the commission of the offence is deemed to act without guilt.",
+                "LibreTranslate": {
+                    "output text": "who is not yet fourteen years old when starving.",
+                    "bleu": 1.5050289697950694,
+                    "chrf": 12.87613516538977,
+                    "ter": 95.45454545454545,
+                    "DA_adequacy": 10.0
+                },
+                "OPUS": {
+                    "output text": "Ineligible is anyone who is not yet fourteen years old when the act is committed.",
+                    "bleu": 2.471259352087199,
+                    "chrf": 21.28212579382717,
+                    "ter": 86.36363636363636,
+                    "DA_adequacy": 60.0
+                },
+                "MBart50": {
+                    "output text": "Incapable of guilt is one who is not yet fourteen years old when committing the act.",
+                    "bleu": 2.7024025882863967,
+                    "chrf": 24.006885793078585,
+                    "ter": 95.45454545454545,
+                    "DA_adequacy": 95.0
+                }
+            },
+            {
+                "SRC": "Als Anstifter wird gleich einem Täter bestraft, wer vorsätzlich einen anderen zu dessen vorsätzlich begangener rechtswidriger Tat bestimmt hat.",
+                "REF": "Whoever intentionally induces another to intentionally commit an unlawful act (abettor) incurs the same penalty as an offender.",
+                "LibreTranslate": {
+                    "output text": "as an instigator is punished equal to one who deliberately has determined another to his deliberately committed illegal action.",
+                    "bleu": 5.446738478088692,
+                    "chrf": 28.824875507203586,
+                    "ter": 94.44444444444444,
+                    "DA_adequacy": 60.0
+                },
+                "OPUS": {
+                    "output text": "As an instigator, one perpetrator is punished who has intentionally designated another as his intentional illegal act.",
+                    "bleu": 2.8518643084013244,
+                    "chrf": 34.93303255668362,
+                    "ter": 94.44444444444444,
+                    "DA_adequacy": 50.0
+                },
+                "MBart50": {
+                    "output text": "As a perpetrator, a perpetrator is punished as soon as he intentionally determines another perpetrator to his intentionally initiated unlawful act.",
+                    "bleu": 4.657469807170696,
+                    "chrf": 43.760386805926636,
+                    "ter": 116.66666666666667,
+                    "DA_adequacy": 70.0
+                }
+            },
+            {
+                "SRC": "Notwehr ist die Verteidigung, die erforderlich ist, um einen gegenwärtigen rechtswidrigen Angriff von sich oder einem anderen abzuwenden.",
+                "REF": "‘Self-defence’ means any defensive action which is necessary to avert a present unlawful attack on oneself or another.",
+                "LibreTranslate": {
+                    "output text": "is the defense required to reject a current illegal attack by itself or another.",
+                    "bleu": 9.260334509053703,
+                    "chrf": 29.33385488339419,
+                    "ter": 72.22222222222221,
+                    "DA_adequacy": 30.0
+                },
+                "OPUS": {
+                    "output text": "Self-defense is the defence required to avert a current illegal attack from itself or from another.",
+                    "bleu": 10.702981958567012,
+                    "chrf": 39.28806546108429,
+                    "ter": 72.22222222222221,
+                    "DA_adequacy": 70.0
+                },
+                "MBart50": {
+                    "output text": "Emergency defence is the defence that is necessary to deter a current unlawful attack from oneself or another.",
+                    "bleu": 20.973425791310696,
+                    "chrf": 53.247474922774295,
+                    "ter": 50.0,
+                    "DA_adequacy": 70.0
+                }
+            },
+            {
+                "SRC": "Das Höchstmaß der zeitigen Freiheitsstrafe ist fünfzehn Jahre, ihr Mindestmaß ein Monat.",
+                "REF": "The maximum term of a fixed-term period of imprisonment is 15 years, the minimum term one month.",
+                "LibreTranslate": {
+                    "output text": "the highest of the timely freedom penalty is fifteen years, its at least one month.",
+                    "bleu": 10.702981958567012,
+                    "chrf": 24.59115797147364,
+                    "ter": 64.70588235294117,
+                    "DA_adequacy": 60.0
+                },
+                "OPUS": {
+                    "output text": "The maximum amount of the current prison sentence is fifteen years, their minimum is one month.",
+                    "bleu": 12.445003753773051,
+                    "chrf": 44.078135398172044,
+                    "ter": 52.94117647058824,
+                    "DA_adequacy": 90.0
+                },
+                "MBart50": {
+                    "output text": "The maximum term of imprisonment is fifteen years, the minimum one month.",
+                    "bleu": 35.31950819907572,
+                    "chrf": 65.6494175528401,
+                    "ter": 35.294117647058826,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "Wer wegen eines Verbrechens zu Freiheitsstrafe von mindestens einem Jahr verurteilt wird, verliert für die Dauer von fünf Jahren die Fähigkeit, öffentliche Ämter zu bekleiden und Rechte aus öffentlichen Wahlen zu erlangen.",
+                "REF": "Whoever is sentenced to imprisonment for a term of at least one year for a serious criminal offence loses the ability, for a period of five years, to hold public office and be elected in public elections.",
+                "LibreTranslate": {
+                    "output text": "who is condemned for a crime to a free sentence of at least one year, loses for the duration of five years the ability to dress public offices and obtain right from public elections.",
+                    "bleu": 18.163812806744755,
+                    "chrf": 48.750607517987845,
+                    "ter": 62.16216216216216,
+                    "DA_adequacy": 60.0
+                },
+                "OPUS": {
+                    "output text": "If you are sentenced to at least one year's imprisonment for a crime, you lose the ability to hold public offices and obtain rights from public elections for a period of five years.",
+                    "bleu": 23.729842421742664,
+                    "chrf": 59.94575857353781,
+                    "ter": 59.45945945945946,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Whoever is sentenced to a minimum of one year's imprisonment for a crime loses the ability to hold public office and to obtain rights from public elections for a period of five years.",
+                    "bleu": 34.0465272418099,
+                    "chrf": 65.26479441094256,
+                    "ter": 51.35135135135135,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "Eine Freiheitsstrafe unter sechs Monaten verhängt das Gericht nur, wenn besondere Umstände, die in der Tat oder der Persönlichkeit des Täters liegen, die Verhängung einer Freiheitsstrafe zur Einwirkung auf den Täter oder zur Verteidigung der Rechtsordnung unerläßlich machen.",
+                "REF": "The court only imposes a term of imprisonment of less than six months where special circumstances exist, either in the offence or the offender’s character, which strictly require the imposition of imprisonment either to have an influence on the offender or to defend the legal order.",
+                "LibreTranslate": {
+                    "output text": "the court only imposes a penalty under six months if special circumstances which lie in the act or the personality of the offender make the imposition of a penalty of freedom indispensable to the activity or to the defence of the order of law.",
+                    "bleu": 11.38733596388799,
+                    "chrf": 44.90161624388335,
+                    "ter": 58.69565217391305,
+                    "DA_adequacy": 60.0
+                },
+                "OPUS": {
+                    "output text": "A sentence of imprisonment of less than six months shall be imposed by the court only if special circumstances, in fact or in the person of the perpetrator, make the imposition of a sentence of imprisonment indispensable for the action of the perpetrator or for the defence of the legal order.",
+                    "bleu": 21.690348661778796,
+                    "chrf": 55.962228747572865,
+                    "ter": 67.3913043478261,
+                    "DA_adequacy": 90.0
+                },
+                "MBart50": {
+                    "output text": "A sentence of less than six months of imprisonment is imposed by the court only if special circumstances, in fact or in the person of the perpetrator, make the imposition of a sentence of imprisonment indispensable to the perpetrator or to the defence of the rule of law.",
+                    "bleu": 14.549998268384273,
+                    "chrf": 51.355437029316285,
+                    "ter": 67.3913043478261,
+                    "DA_adequacy": 85.0
+                }
+            },
+            {
+                "SRC": "Verletzt dieselbe Handlung mehrere Strafgesetze oder dasselbe Strafgesetz mehrmals, so wird nur auf eine Strafe erkannt.",
+                "REF": "If the same act violates more than one criminal statute or the same criminal statute more than once, only one penalty is imposed.",
+                "LibreTranslate": {
+                    "output text": "violating the same act several criminal laws or the same criminal law several times, so only one sentence is recognized.",
+                    "bleu": 16.671535306859624,
+                    "chrf": 42.6178351000693,
+                    "ter": 52.17391304347826,
+                    "DA_adequacy": 80.0
+                },
+                "OPUS": {
+                    "output text": "If the same act violates several criminal laws or the same criminal law several times, only one penalty is recognised.",
+                    "bleu": 39.04494333978377,
+                    "chrf": 55.6762600221759,
+                    "ter": 39.130434782608695,
+                    "DA_adequacy": 95.0
+                },
+                "MBart50": {
+                    "output text": "If the same act violates several criminal laws or the same criminal law several times, only one punishment is recognized.",
+                    "bleu": 29.92769026810298,
+                    "chrf": 49.668428337112275,
+                    "ter": 43.47826086956522,
+                    "DA_adequacy": 97.5
+                }
+            },
+            {
+                "SRC": "Geldstrafe kann das Gericht unter den Voraussetzungen des § 41 neben Freiheitsstrafe gesondert verhängen.",
+                "REF": "Under the conditions of section 41, the court may separately impose a fine in addition to a sentence of imprisonment.",
+                "LibreTranslate": {
+                    "output text": "the court may impose a separate fine under the conditions of § 41 in addition to the fine.",
+                    "bleu": 17.025809438228066,
+                    "chrf": 54.08839758847406,
+                    "ter": 55.00000000000001,
+                    "DA_adequacy": 40.0
+                },
+                "OPUS": {
+                    "output text": "The court may impose fines separately in addition to imprisonment under the conditions of § 41.",
+                    "bleu": 13.686664397788878,
+                    "chrf": 62.88742415226469,
+                    "ter": 50.0,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "The court may impose a fine separately under the conditions of § 41 in addition to a prison sentence.",
+                    "bleu": 23.30836370783732,
+                    "chrf": 65.71723942092659,
+                    "ter": 45.0,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "Bei der Verurteilung zu Freiheitsstrafe von nicht mehr als einem Jahr setzt das Gericht die Vollstreckung der Strafe zur Bewährung aus, wenn zu erwarten ist, daß der Verurteilte sich schon die Verurteilung zur Warnung dienen lassen und künftig auch ohne die Einwirkung des Strafvollzugs keine Straftaten mehr begehen wird.",
+                "REF": "If a person is sentenced to imprisonment for a term not exceeding one year, the court suspends enforcement of the sentence on probation if there are reasons to believe that the sentence itself will serve as sufficient warning to the convicted person and that the convicted person will commit no further offences even without having to serve the sentence.",
+                "LibreTranslate": {
+                    "output text": "in the judgment to the free movement of no more than one year, the court suspends the execution of the sentence to be promulgated if it is to be expected that the sentenced itself will be used to warn and, in future, will no longer be punished without the effect of the imprisonment.",
+                    "bleu": 13.64396747634849,
+                    "chrf": 41.23675992261884,
+                    "ter": 69.49152542372882,
+                    "DA_adequacy": 40.0
+                },
+                "OPUS": {
+                    "output text": "When sentenced to imprisonment of no more than one year, the court suspends the execution of the sentence for probation if it is to be expected that the convicted person will already accept the sentence as a warning and will in future no longer commit any crimes without the effect of the execution.",
+                    "bleu": 20.78291487650116,
+                    "chrf": 50.122714794743075,
+                    "ter": 61.016949152542374,
+                    "DA_adequacy": 90.0
+                },
+                "MBart50": {
+                    "output text": "In the case of a sentence of imprisonment of not more than one year, the court shall suspend the execution of the sentence for consideration, if it is expected that the convicted person will already be able to use the sentence as a warning and will not commit any criminal acts in the future, even without the effect of the execution.",
+                    "bleu": 16.283514912063474,
+                    "chrf": 48.36034671579596,
+                    "ter": 71.1864406779661,
+                    "DA_adequacy": 90.0
+                }
+            },
+            {
+                "SRC": "Das Gericht bestimmt die Dauer der Bewährungszeit.",
+                "REF": "The court determines the length of the period of probation.",
+                "LibreTranslate": {
+                    "output text": "the court determines the duration of the probation period.",
+                    "bleu": 19.987488607301447,
+                    "chrf": 66.16960680356016,
+                    "ter": 40.0,
+                    "DA_adequacy": 100.0
+                },
+                "OPUS": {
+                    "output text": "The court shall determine the duration of the probation period.",
+                    "bleu": 12.605968092174914,
+                    "chrf": 56.198400882633294,
+                    "ter": 60.0,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "The court determines the duration of the probation period.",
+                    "bleu": 31.282110213677996,
+                    "chrf": 67.93746149914381,
+                    "ter": 40.0,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "Die §§ 56f und 56g gelten entsprechend.",
+                "REF": "Sections 56f and 56g apply accordingly.",
+                "LibreTranslate": {
+                    "output text": "§§ 56f and 56g apply accordingly.",
+                    "bleu": 80.91067115702207,
+                    "chrf": 77.48785251415583,
+                    "ter": 16.666666666666664,
+                    "DA_adequacy": 95.0
+                },
+                "OPUS": {
+                    "output text": "§§ 56f and 56g apply accordingly.",
+                    "bleu": 80.91067115702207,
+                    "chrf": 77.48785251415583,
+                    "ter": 16.666666666666664,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Sections 56f and 56g apply accordingly.",
+                    "bleu": 100.00000000000004,
+                    "chrf": 100.0,
+                    "ter": 0.0,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "Sie darf zwei Jahre nicht überschreiten und ein Jahr nicht unterschreiten.",
+                "REF": "It may not exceed two years nor be less than one year.",
+                "LibreTranslate": {
+                    "output text": "it must not exceed two years and not fall below one year.",
+                    "bleu": 27.968424579665367,
+                    "chrf": 55.73500199833818,
+                    "ter": 41.66666666666667,
+                    "DA_adequacy": 100.0
+                },
+                "OPUS": {
+                    "output text": "It shall not exceed two years and shall not be less than one year.",
+                    "bleu": 50.389204852596336,
+                    "chrf": 72.98903829184103,
+                    "ter": 33.33333333333333,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "It shall not exceed two years and shall not exceed one year.",
+                    "bleu": 28.917849332325716,
+                    "chrf": 54.52839874317511,
+                    "ter": 41.66666666666667,
+                    "DA_adequacy": 30.0
+                }
+            },
+            {
+                "SRC": "Eine Maßregel der Besserung und Sicherung darf nicht angeordnet werden, wenn sie zur Bedeutung der vom Täter begangenen und zu erwartenden Taten sowie zu dem Grad der von ihm ausgehenden Gefahr außer Verhältnis steht.",
+                "REF": "A measure of reform and prevention may not be ordered if it is disproportionate to the severity of the offence committed by or expected to be committed by the offender and to the degree of danger which the offender poses to society.",
+                "LibreTranslate": {
+                    "output text": "a measure of the improvement and protection must not be arranged if it is out of proportion to the significance of the action committed and expected by the worker and to the degree of the danger arising from him.",
+                    "bleu": 16.342703915409707,
+                    "chrf": 44.5614145211656,
+                    "ter": 52.38095238095239,
+                    "DA_adequacy": 70.0
+                },
+                "OPUS": {
+                    "output text": "A measure of improvement and security may not be ordered if it is out of proportion to the significance of the acts committed and anticipated by the perpetrator and to the degree of danger it poses.",
+                    "bleu": 31.30465442303324,
+                    "chrf": 49.31510273327506,
+                    "ter": 47.61904761904761,
+                    "DA_adequacy": 80.0
+                },
+                "MBart50": {
+                    "output text": "A measure of improvement and security may not be imposed if it is disproportionate to the importance of the acts committed and expected by the perpetrator and to the degree of danger arising from it.",
+                    "bleu": 30.01056317910154,
+                    "chrf": 51.76833262720804,
+                    "ter": 40.476190476190474,
+                    "DA_adequacy": 80.0
+                }
+            },
+            {
+                "SRC": "Entzieht das Gericht die Fahrerlaubnis, so bestimmt es zugleich, daß für die Dauer von sechs Monaten bis zu fünf Jahren keine neue Fahrerlaubnis erteilt werden darf (Sperre).",
+                "REF": "If the court disqualifies a driving licence, it simultaneously determines that the driving licence is not to be reinstated for a period of between six months and five years (period of disqualification).",
+                "LibreTranslate": {
+                    "output text": "the court withdraws the driving licence, so it also determines that for the period from six months to five years no new driving licence may be granted (block.)",
+                    "bleu": 10.545899432831929,
+                    "chrf": 44.635985789833896,
+                    "ter": 65.625,
+                    "DA_adequacy": 80.0
+                },
+                "OPUS": {
+                    "output text": "If the court withdraws the licence, it shall at the same time provide that no new licence may be granted for a period of six months up to five years (block).",
+                    "bleu": 17.119268713552867,
+                    "chrf": 39.26522463382716,
+                    "ter": 62.5,
+                    "DA_adequacy": 90.0
+                },
+                "MBart50": {
+                    "output text": "If the court withdraws the driving licence, it also provides that no new driving licence may be granted for a period of six months to five years (restriction).",
+                    "bleu": 23.978515181589277,
+                    "chrf": 48.58969044599537,
+                    "ter": 46.875,
+                    "DA_adequacy": 90.0
+                }
+            },
+            {
+                "SRC": "In anderen Fällen werden die Entziehung der Fahrerlaubnis und die Sperre in den ausländischen Führerscheinen vermerkt.",
+                "REF": "In all other cases, the loss of the right to drive and the period of disqualification is endorsed on the foreign driving licence.",
+                "LibreTranslate": {
+                    "output text": "in other cases the withdrawal of the licence and the lock in the foreign licences are noted.",
+                    "bleu": 6.305437231717202,
+                    "chrf": 35.98197557042429,
+                    "ter": 65.21739130434783,
+                    "DA_adequacy": 70.0
+                },
+                "OPUS": {
+                    "output text": "In other cases, the withdrawal of the driving licence and the suspension are recorded in foreign driving licences.",
+                    "bleu": 15.490590407339713,
+                    "chrf": 46.19662628582598,
+                    "ter": 56.52173913043478,
+                    "DA_adequacy": 90.0
+                },
+                "MBart50": {
+                    "output text": "In other cases, the withdrawal of driving licences and the blocking of foreign driving licences are noted.",
+                    "bleu": 13.819773752147391,
+                    "chrf": 42.749709475365634,
+                    "ter": 60.86956521739131,
+                    "DA_adequacy": 85.0
+                }
+            },
+            {
+                "SRC": "Hat der Täter oder Teilnehmer durch eine rechtswidrige Tat oder für sie etwas erlangt, so ordnet das Gericht dessen Einziehung an.",
+                "REF": "If the offender or participant has obtained anything by or for an unlawful act, the court orders the confiscation of that which was obtained.",
+                "LibreTranslate": {
+                    "output text": "the offender or participant has done or obtained something for them by an unlawful act, so the court orders it.",
+                    "bleu": 29.50678945970562,
+                    "chrf": 55.10403969306896,
+                    "ter": 62.5,
+                    "DA_adequacy": 20.0
+                },
+                "OPUS": {
+                    "output text": "If the perpetrator or participant has obtained anything by an unlawful act or for him, the court shall order his confiscation.",
+                    "bleu": 31.585471600267127,
+                    "chrf": 61.833233759482574,
+                    "ter": 50.0,
+                    "DA_adequacy": 95.0
+                },
+                "MBart50": {
+                    "output text": "If the perpetrator or participant has obtained something for himself or herself through an unlawful act, the court orders his or her removal.",
+                    "bleu": 35.40786866256383,
+                    "chrf": 52.096595533877874,
+                    "ter": 54.166666666666664,
+                    "DA_adequacy": 85.0
+                }
+            },
+            {
+                "SRC": "Der Wert des Gegenstandes und der Belastung kann geschätzt werden.",
+                "REF": "The value of the object and of the encumbrance may be estimated.",
+                "LibreTranslate": {
+                    "output text": "the value of the object and the load can be estimated.",
+                    "bleu": 40.17682558797496,
+                    "chrf": 61.258648307000975,
+                    "ter": 25.0,
+                    "DA_adequacy": 100.0
+                },
+                "OPUS": {
+                    "output text": "The value of the object and the load can be estimated.",
+                    "bleu": 50.16513759455242,
+                    "chrf": 63.31458332909763,
+                    "ter": 25.0,
+                    "DA_adequacy": 95.0
+                },
+                "MBart50": {
+                    "output text": "The value of the object and the load can be estimated.",
+                    "bleu": 50.16513759455242,
+                    "chrf": 63.31458332909763,
+                    "ter": 25.0,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "Eine Tat, die nur auf Antrag verfolgbar ist, wird nicht verfolgt, wenn der Antragsberechtigte es unterläßt, den Antrag bis zum Ablauf einer Frist von drei Monaten zu stellen.",
+                "REF": "An offence which may be prosecuted only upon request is not prosecuted if the person entitled to file the request to prosecute fails to do so before the expiry of a three-month period.",
+                "LibreTranslate": {
+                    "output text": "an action which can only be traced is not followed if the applicant refuses to submit the application until the expiry of a period of three months.",
+                    "bleu": 10.668440108236878,
+                    "chrf": 30.678113268185538,
+                    "ter": 66.66666666666666,
+                    "DA_adequacy": 60.0
+                },
+                "OPUS": {
+                    "output text": "An act which is traceable only on application shall not be pursued if the applicant fails to submit the application until the expiry of a period of three months.",
+                    "bleu": 11.096756017846454,
+                    "chrf": 31.09684280979539,
+                    "ter": 69.6969696969697,
+                    "DA_adequacy": 70.0
+                },
+                "MBart50": {
+                    "output text": "An act which can only be prosecuted on application is not prosecuted if the person entitled to apply submits the application before the expiry of a period of three months.",
+                    "bleu": 34.56583319732669,
+                    "chrf": 54.74916316045305,
+                    "ter": 54.54545454545454,
+                    "DA_adequacy": 30.0
+                }
+            },
+            {
+                "SRC": "Die Verjährung beginnt, sobald die Tat beendet ist.",
+                "REF": "The limitation period begins to run as soon as the offence is completed.",
+                "LibreTranslate": {
+                    "output text": "the limitation begins as soon as the has ended.",
+                    "bleu": 20.252884954471373,
+                    "chrf": 43.68377175188862,
+                    "ter": 46.15384615384615,
+                    "DA_adequacy": 10.0
+                },
+                "OPUS": {
+                    "output text": "The statute of limitations begins as soon as the act is over.",
+                    "bleu": 21.29480760387301,
+                    "chrf": 42.41626133423332,
+                    "ter": 53.84615384615385,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "The limitation period begins as soon as the act is completed.",
+                    "bleu": 44.16051649800462,
+                    "chrf": 73.06998270738502,
+                    "ter": 23.076923076923077,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "Die Vollstreckung von lebenslangen Freiheitsstrafen verjährt nicht.",
+                "REF": "Enforcement of imprisonment for life is not subject to the statute of limitations.",
+                "LibreTranslate": {
+                    "output text": "the execution of life-long freedom sentences does not endanger.",
+                    "bleu": 3.9778149665594618,
+                    "chrf": 19.609120755513946,
+                    "ter": 84.61538461538461,
+                    "DA_adequacy": 20.0
+                },
+                "OPUS": {
+                    "output text": "The enforcement of life-long prison sentences is not a statute of limitations.",
+                    "bleu": 22.131477988685884,
+                    "chrf": 56.414819687273784,
+                    "ter": 46.15384615384615,
+                    "DA_adequacy": 60.0
+                },
+                "MBart50": {
+                    "output text": "Enforcement of life imprisonment does not constitute an offence.",
+                    "bleu": 7.40354787297858,
+                    "chrf": 45.89230648103781,
+                    "ter": 69.23076923076923,
+                    "DA_adequacy": 40.0
+                }
+            },
+            {
+                "SRC": "Gefährdung des demokratischen Rechtsstaates",
+                "REF": "Endangering democratic state under rule of law",
+                "LibreTranslate": {
+                    "output text": "threat of democratic rule of law",
+                    "bleu": 27.482545710800192,
+                    "chrf": 42.41909522672003,
+                    "ter": 57.14285714285714,
+                    "DA_adequacy": 100.0
+                },
+                "OPUS": {
+                    "output text": "Endangering the democratic rule of law",
+                    "bleu": 29.05925408079185,
+                    "chrf": 62.65735760651836,
+                    "ter": 42.857142857142854,
+                    "DA_adequacy": 100.0
+                },
+                "MBart50": {
+                    "output text": "Threat to the democratic rule of law",
+                    "bleu": 26.269098944241588,
+                    "chrf": 42.147023956737655,
+                    "ter": 57.14285714285714,
+                    "DA_adequacy": 100.0
+                }
+            },
+            {
+                "SRC": "Wer öffentlich, in einer Versammlung oder durch Verbreiten eines Inhalts (§ 11 Absatz 3) den Bundespräsidenten verunglimpft, wird mit Freiheitsstrafe von drei Monaten bis zu fünf Jahren bestraft.",
+                "REF": "Whoever disparages the Federal President in public, in a meeting or by disseminating material (section 11 (3)) incurs a penalty of imprisonment for a term of between three months and five years.",
+                "LibreTranslate": {
+                    "output text": "who publicly, in a meeting or by spreading a content (§ 11 paragraph 3) dismisses the President of the Federal Republic, is punished by a fine of three months to five years.",
+                    "bleu": 20.791125489906015,
+                    "chrf": 43.078968032655375,
+                    "ter": 65.625,
+                    "DA_adequacy": 85.0
+                },
+                "OPUS": {
+                    "output text": "Anyone who denigrates the Federal President publicly, in a meeting or by spreading a content (§ 11 paragraph 3) will be punished with imprisonment of three months to five years.",
+                    "bleu": 21.97867567789593,
+                    "chrf": 48.27306812796933,
+                    "ter": 59.375,
+                    "DA_adequacy": 95.0
+                },
+                "MBart50": {
+                    "output text": "Anyone who condemns the President of the Federal Republic in public, in a meeting or by disseminating a content (§ 11 paragraph 3) shall be punished by imprisonment of three months to five years.",
+                    "bleu": 30.633187075596275,
+                    "chrf": 54.31019668908795,
+                    "ter": 59.375,
+                    "DA_adequacy": 90.0
+                }
+            },
+            {
+                "SRC": "Ein Geistlicher ist nicht verpflichtet anzuzeigen, was ihm in seiner Eigenschaft als Seelsorger anvertraut worden ist.",
+                "REF": "Clergy are not obliged to report what has been confided to them in their capacity as spiritual advisers.",
+                "LibreTranslate": {
+                    "output text": "a spiritual is not obliged to indicate what has been entrusted to him in his own possession as a pastoral worker.",
+                    "bleu": 12.582205558459375,
+                    "chrf": 41.210619758429296,
+                    "ter": 66.66666666666666,
+                    "DA_adequacy": 80.0
+                },
+                "OPUS": {
+                    "output text": "A clergyman is not obliged to indicate what has been entrusted to him in his capacity as pastor.",
+                    "bleu": 15.593439508212386,
+                    "chrf": 43.427070304099,
+                    "ter": 50.0,
+                    "DA_adequacy": 85.0
+                },
+                "MBart50": {
+                    "output text": "A clergyman is not obliged to show what has been entrusted to him in his capacity as a minister of the Spirit.",
+                    "bleu": 12.683546941685782,
+                    "chrf": 44.938940491610175,
+                    "ter": 66.66666666666666,
+                    "DA_adequacy": 80.0
+                }
+            }
+        ],
+        "OPUS": {
+            "bleu": 21.246225996109764,
+            "chrf": 47.84010574348002,
+            "ter": 59.56006768189509,
+            "DA_adequacy": 85.4
+        },
+        "MBart50": {
+            "bleu": 24.384517586383417,
+            "chrf": 51.37038478100418,
+            "ter": 58.03722504230119,
+            "DA_adequacy": 83.5
+        },
+        "LibreTranslate": {
+            "bleu": 15.35409918814025,
+            "chrf": 41.496510703374106,
+            "ter": 63.28257191201354,
+            "DA_adequacy": 61.6
+        }
+    }
+}
